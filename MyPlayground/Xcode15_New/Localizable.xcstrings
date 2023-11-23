@@ -1,0 +1,55 @@
+{
+  "sourceLanguage" : "zh-Hant",
+  "strings" : {
+    "hello-title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hallo Welt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hello World"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你好世界"
+          }
+        }
+      }
+    },
+    "Hello, world!" : {
+
+    },
+    "spider-title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spider-Man: Across the Spider-Verse"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spider-Man: Across the Spider verse"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "蜘蛛人：穿越新宇宙"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
