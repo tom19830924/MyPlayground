@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		449B4251485F63D7D1C692D3 /* Pods_MyPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE49DE05DB8CEC6855EF7C7 /* Pods_MyPlayground.framework */; };
+		9826951C2B9CCC59E541CD61 /* libPods-MyPlayground.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A1D0D4FAE3AD37D09D94AC /* libPods-MyPlayground.a */; };
 		CE10260B2AF8947B008110E6 /* Xcode15_New_AssetCatalogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE10260A2AF8947B008110E6 /* Xcode15_New_AssetCatalogs.swift */; };
 		CE1026272AF8B030008110E6 /* UIViewControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1026262AF8B030008110E6 /* UIViewControllerWrapper.swift */; };
 		CE10262B2AF8B49A008110E6 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE10262A2AF8B49A008110E6 /* Storyboard.storyboard */; };
@@ -18,6 +18,8 @@
 		CE4A6D912AF882C100E610D0 /* UIViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A6D902AF882C100E610D0 /* UIViewWrapper.swift */; };
 		CE50C4FF2AF0D4EA00816038 /* Xcode15_New_Previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50C4FE2AF0D4EA00816038 /* Xcode15_New_Previews.swift */; };
 		CE67332D2AF4D69A0081544C /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = CE67332C2AF4D69A0081544C /* Localizable.xcstrings */; };
+		CE8E3ABD2B31A52400CD1F3A /* ChaoCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E3ABB2B31A52400CD1F3A /* ChaoCodeView.swift */; };
+		CE8E3ABE2B31A52400CD1F3A /* ConcurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E3ABC2B31A52400CD1F3A /* ConcurrencyView.swift */; };
 		CE95C9232AF8931F00DEB25E /* Xcode15_New.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95C9222AF8931F00DEB25E /* Xcode15_New.swift */; };
 		CEAD9D0B2AA0941000DF6212 /* MyPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD9D0A2AA0941000DF6212 /* MyPlaygroundApp.swift */; };
 		CEAD9D0F2AA0941100DF6212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAD9D0E2AA0941100DF6212 /* Assets.xcassets */; };
@@ -30,7 +32,7 @@
 
 /* Begin PBXFileReference section */
 		47973E878E866F4B3A62CB90 /* Pods-MyPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlayground.release.xcconfig"; path = "Target Support Files/Pods-MyPlayground/Pods-MyPlayground.release.xcconfig"; sourceTree = "<group>"; };
-		6DE49DE05DB8CEC6855EF7C7 /* Pods_MyPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A1D0D4FAE3AD37D09D94AC /* libPods-MyPlayground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyPlayground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE10260A2AF8947B008110E6 /* Xcode15_New_AssetCatalogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode15_New_AssetCatalogs.swift; sourceTree = "<group>"; };
 		CE1026262AF8B030008110E6 /* UIViewControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerWrapper.swift; sourceTree = "<group>"; };
 		CE10262A2AF8B49A008110E6 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
@@ -44,6 +46,8 @@
 		CE50C4FB2AF0D3DB00816038 /* MarkupFormat.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MarkupFormat.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CE50C4FE2AF0D4EA00816038 /* Xcode15_New_Previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode15_New_Previews.swift; sourceTree = "<group>"; };
 		CE67332C2AF4D69A0081544C /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		CE8E3ABB2B31A52400CD1F3A /* ChaoCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChaoCodeView.swift; sourceTree = "<group>"; };
+		CE8E3ABC2B31A52400CD1F3A /* ConcurrencyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcurrencyView.swift; sourceTree = "<group>"; };
 		CE95C9222AF8931F00DEB25E /* Xcode15_New.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode15_New.swift; sourceTree = "<group>"; };
 		CEAD9D072AA0941000DF6212 /* MyPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAD9D0A2AA0941000DF6212 /* MyPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlaygroundApp.swift; sourceTree = "<group>"; };
@@ -63,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				449B4251485F63D7D1C692D3 /* Pods_MyPlayground.framework in Frameworks */,
+				9826951C2B9CCC59E541CD61 /* libPods-MyPlayground.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +77,7 @@
 		775D1CD063F94F0AC53FFD2C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6DE49DE05DB8CEC6855EF7C7 /* Pods_MyPlayground.framework */,
+				A6A1D0D4FAE3AD37D09D94AC /* libPods-MyPlayground.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,13 +120,15 @@
 			children = (
 				CEAD9D5E2AA1AF0400DF6212 /* Model */,
 				CEAD9D0A2AA0941000DF6212 /* MyPlaygroundApp.swift */,
+				CE8E3ABB2B31A52400CD1F3A /* ChaoCodeView.swift */,
+				CE8E3ABC2B31A52400CD1F3A /* ConcurrencyView.swift */,
 				CE4A6D902AF882C100E610D0 /* UIViewWrapper.swift */,
 				CE1026262AF8B030008110E6 /* UIViewControllerWrapper.swift */,
 				CEEEF08C2B0B499500521143 /* File.swift */,
 				CE4A6D932AF88C9100E610D0 /* Xcode15_New */,
+				CE50C4FA2AF0D3BC00816038 /* MyPlayground.playground */,
 				CE486AD32AF1041A00A4657F /* PhantomType.playground */,
 				CE50C4FB2AF0D3DB00816038 /* MarkupFormat.playground */,
-				CE50C4FA2AF0D3BC00816038 /* MyPlayground.playground */,
 				CEFD555F2AD006930047235E /* LiveView.playground */,
 				CEAD9D2F2AA0965700DF6212 /* Playground.playground */,
 				CEAD9D0E2AA0941100DF6212 /* Assets.xcassets */,
@@ -170,7 +176,6 @@
 				CEAD9D032AA0941000DF6212 /* Sources */,
 				CEAD9D042AA0941000DF6212 /* Frameworks */,
 				CEAD9D052AA0941000DF6212 /* Resources */,
-				327A6BB6A3C21A63716E85FC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,23 +236,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		327A6BB6A3C21A63716E85FC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MyPlayground/Pods-MyPlayground-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MyPlayground/Pods-MyPlayground-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyPlayground/Pods-MyPlayground-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C4C8066DC16DD65D2C193632 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -283,12 +271,14 @@
 				CE50C4FF2AF0D4EA00816038 /* Xcode15_New_Previews.swift in Sources */,
 				CE10262F2AF8B866008110E6 /* Xcode15_New_Swift-DocC.swift in Sources */,
 				CE1026332AF8BA37008110E6 /* Xcode15_New_Bookmark.swift in Sources */,
+				CE8E3ABE2B31A52400CD1F3A /* ConcurrencyView.swift in Sources */,
 				CEAD9D602AA1AF1B00DF6212 /* Language.swift in Sources */,
 				CEAD9D622AA1AF3B00DF6212 /* Author.swift in Sources */,
 				CEAD9D642AA1AF4700DF6212 /* Book.swift in Sources */,
 				CEEEF08D2B0B499500521143 /* File.swift in Sources */,
 				CE4A6D912AF882C100E610D0 /* UIViewWrapper.swift in Sources */,
 				CE10260B2AF8947B008110E6 /* Xcode15_New_AssetCatalogs.swift in Sources */,
+				CE8E3ABD2B31A52400CD1F3A /* ChaoCodeView.swift in Sources */,
 				CE1026272AF8B030008110E6 /* UIViewControllerWrapper.swift in Sources */,
 				CEAD9D0B2AA0941000DF6212 /* MyPlaygroundApp.swift in Sources */,
 			);

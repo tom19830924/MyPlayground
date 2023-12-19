@@ -2,8 +2,8 @@
 platform :ios, '14.0'
 
 target 'MyPlayground' do
-  # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
+  # use_frameworks!
+  use_modular_headers!
   inhibit_all_warnings!
 
   # Pods for MyPlayground

@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "zh-Hant",
   "strings" : {
+    "" : {
+
+    },
     "hello-title" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -27,6 +30,9 @@
     "Hello, world!" : {
 
     },
+    "HTTP Fetch" : {
+
+    },
     "spider-title" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -49,6 +55,15 @@
           }
         }
       }
+    },
+    "WebSocket connection" : {
+
+    },
+    "WebSocket Send" : {
+
+    },
+    "切到手" : {
+
     }
   },
   "version" : "1.0"
