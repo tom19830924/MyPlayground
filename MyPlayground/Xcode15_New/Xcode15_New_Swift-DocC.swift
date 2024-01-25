@@ -1,5 +1,5 @@
 // 文件即時預覽 assistant -> document preview
-enum API {
+enum Xcode15_API {
     /// 登入帳號
     /// - Parameters:
     ///   - account: 帳號, 支援Email與手機號碼

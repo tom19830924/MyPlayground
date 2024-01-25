@@ -9,46 +9,80 @@
 /* Begin PBXBuildFile section */
 		9826951C2B9CCC59E541CD61 /* libPods-MyPlayground.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A1D0D4FAE3AD37D09D94AC /* libPods-MyPlayground.a */; };
 		CE10260B2AF8947B008110E6 /* Xcode15_New_AssetCatalogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE10260A2AF8947B008110E6 /* Xcode15_New_AssetCatalogs.swift */; };
-		CE1026272AF8B030008110E6 /* UIViewControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1026262AF8B030008110E6 /* UIViewControllerWrapper.swift */; };
 		CE10262B2AF8B49A008110E6 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE10262A2AF8B49A008110E6 /* Storyboard.storyboard */; };
 		CE10262D2AF8B70C008110E6 /* Xcode15_New_StringCatalogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE10262C2AF8B70C008110E6 /* Xcode15_New_StringCatalogs.swift */; };
 		CE10262F2AF8B866008110E6 /* Xcode15_New_Swift-DocC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE10262E2AF8B866008110E6 /* Xcode15_New_Swift-DocC.swift */; };
 		CE1026312AF8B9A0008110E6 /* Xcode15_New_Swift_Macros.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1026302AF8B9A0008110E6 /* Xcode15_New_Swift_Macros.swift */; };
 		CE1026332AF8BA37008110E6 /* Xcode15_New_Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1026322AF8BA37008110E6 /* Xcode15_New_Bookmark.swift */; };
-		CE4A6D912AF882C100E610D0 /* UIViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A6D902AF882C100E610D0 /* UIViewWrapper.swift */; };
+		CE1181062B391BC300AB42A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1181052B391BC300AB42A1 /* ContentView.swift */; };
 		CE50C4FF2AF0D4EA00816038 /* Xcode15_New_Previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50C4FE2AF0D4EA00816038 /* Xcode15_New_Previews.swift */; };
-		CE67332D2AF4D69A0081544C /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = CE67332C2AF4D69A0081544C /* Localizable.xcstrings */; };
-		CE8E3ABD2B31A52400CD1F3A /* ChaoCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E3ABB2B31A52400CD1F3A /* ChaoCodeView.swift */; };
+		CE5F924A2B61015B00ACA09E /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = CE5F92492B61015B00ACA09E /* Localizable.xcstrings */; };
 		CE8E3ABE2B31A52400CD1F3A /* ConcurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E3ABC2B31A52400CD1F3A /* ConcurrencyView.swift */; };
+		CE93BA1B2B3AA74800928EAD /* MVVMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE93BA1A2B3AA74800928EAD /* MVVMView.swift */; };
 		CE95C9232AF8931F00DEB25E /* Xcode15_New.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95C9222AF8931F00DEB25E /* Xcode15_New.swift */; };
+		CE9853E42B43E87C0017B732 /* CombineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9853E32B43E87C0017B732 /* CombineView.swift */; };
+		CEA0F8BD2B3C1A4400EB883B /* AsyncLetDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA0F8BC2B3C1A4400EB883B /* AsyncLetDemoView.swift */; };
+		CEA0F8BF2B3C28CE00EB883B /* UserTaskGroupDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA0F8BE2B3C28CE00EB883B /* UserTaskGroupDemoView.swift */; };
+		CEA0F9362B3D8C0B00EB883B /* StructuredDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA0F9352B3D8C0B00EB883B /* StructuredDemoView.swift */; };
 		CEAD9D0B2AA0941000DF6212 /* MyPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD9D0A2AA0941000DF6212 /* MyPlaygroundApp.swift */; };
 		CEAD9D0F2AA0941100DF6212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAD9D0E2AA0941100DF6212 /* Assets.xcassets */; };
 		CEAD9D122AA0941100DF6212 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAD9D112AA0941100DF6212 /* Preview Assets.xcassets */; };
 		CEAD9D602AA1AF1B00DF6212 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD9D5F2AA1AF1B00DF6212 /* Language.swift */; };
 		CEAD9D622AA1AF3B00DF6212 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD9D612AA1AF3B00DF6212 /* Author.swift */; };
 		CEAD9D642AA1AF4700DF6212 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD9D632AA1AF4700DF6212 /* Book.swift */; };
-		CEEEF08D2B0B499500521143 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEEF08C2B0B499500521143 /* File.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE036ACC2B6128A100CF6487 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE036AC82B6128A100CF6487 /* Calculator.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE9DF5072B46A81D0010630F;
+			remoteInfo = Calculator;
+		};
+		CEE84CFD2B61093600A079CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE84CF92B61093600A079CA /* Landmarks.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE9854282B455DC10017B732;
+			remoteInfo = Landmarks;
+		};
+		CEEAA32D2B4EB460003CF6E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEEAA3222B4EB460003CF6E9 /* FoodPicker.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE31E39E2B4BB626008355F0;
+			remoteInfo = FoodPicker;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		47973E878E866F4B3A62CB90 /* Pods-MyPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlayground.release.xcconfig"; path = "Target Support Files/Pods-MyPlayground/Pods-MyPlayground.release.xcconfig"; sourceTree = "<group>"; };
 		A6A1D0D4FAE3AD37D09D94AC /* libPods-MyPlayground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyPlayground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE036AC82B6128A100CF6487 /* Calculator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Calculator.xcodeproj; sourceTree = "<group>"; };
 		CE10260A2AF8947B008110E6 /* Xcode15_New_AssetCatalogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode15_New_AssetCatalogs.swift; sourceTree = "<group>"; };
-		CE1026262AF8B030008110E6 /* UIViewControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerWrapper.swift; sourceTree = "<group>"; };
 		CE10262A2AF8B49A008110E6 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		CE10262C2AF8B70C008110E6 /* Xcode15_New_StringCatalogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode15_New_StringCatalogs.swift; sourceTree = "<group>"; };
 		CE10262E2AF8B866008110E6 /* Xcode15_New_Swift-DocC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Xcode15_New_Swift-DocC.swift"; sourceTree = "<group>"; };
 		CE1026302AF8B9A0008110E6 /* Xcode15_New_Swift_Macros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode15_New_Swift_Macros.swift; sourceTree = "<group>"; };
 		CE1026322AF8BA37008110E6 /* Xcode15_New_Bookmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode15_New_Bookmark.swift; sourceTree = "<group>"; };
+		CE1181052B391BC300AB42A1 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE228E2B2B3C13C0002DF8B8 /* SwiftConcurrency.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftConcurrency.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CE486AD32AF1041A00A4657F /* PhantomType.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PhantomType.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		CE4A6D902AF882C100E610D0 /* UIViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewWrapper.swift; sourceTree = "<group>"; };
 		CE50C4FA2AF0D3BC00816038 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CE50C4FB2AF0D3DB00816038 /* MarkupFormat.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MarkupFormat.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CE50C4FE2AF0D4EA00816038 /* Xcode15_New_Previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode15_New_Previews.swift; sourceTree = "<group>"; };
-		CE67332C2AF4D69A0081544C /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
-		CE8E3ABB2B31A52400CD1F3A /* ChaoCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChaoCodeView.swift; sourceTree = "<group>"; };
+		CE5F92492B61015B00ACA09E /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		CE8E3ABC2B31A52400CD1F3A /* ConcurrencyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcurrencyView.swift; sourceTree = "<group>"; };
+		CE93BA1A2B3AA74800928EAD /* MVVMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMView.swift; sourceTree = "<group>"; };
 		CE95C9222AF8931F00DEB25E /* Xcode15_New.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode15_New.swift; sourceTree = "<group>"; };
+		CE9853802B3EA2030017B732 /* Global Actor.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Global Actor.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CE9853812B3EA2190017B732 /* Task & Actor.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Task & Actor.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CE9853E32B43E87C0017B732 /* CombineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineView.swift; sourceTree = "<group>"; };
+		CEA0F8BC2B3C1A4400EB883B /* AsyncLetDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetDemoView.swift; sourceTree = "<group>"; };
+		CEA0F8BE2B3C28CE00EB883B /* UserTaskGroupDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTaskGroupDemoView.swift; sourceTree = "<group>"; };
+		CEA0F9352B3D8C0B00EB883B /* StructuredDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuredDemoView.swift; sourceTree = "<group>"; };
+		CEA0F9372B3E9BB800EB883B /* Actor.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Actor.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CEAD9D072AA0941000DF6212 /* MyPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAD9D0A2AA0941000DF6212 /* MyPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlaygroundApp.swift; sourceTree = "<group>"; };
 		CEAD9D0E2AA0941100DF6212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +91,8 @@
 		CEAD9D5F2AA1AF1B00DF6212 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
 		CEAD9D612AA1AF3B00DF6212 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
 		CEAD9D632AA1AF4700DF6212 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
-		CEEEF08C2B0B499500521143 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		CEE84CF92B61093600A079CA /* Landmarks.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Landmarks.xcodeproj; sourceTree = "<group>"; };
+		CEEAA3222B4EB460003CF6E9 /* FoodPicker.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = FoodPicker.xcodeproj; sourceTree = "<group>"; };
 		CEFD555F2AD006930047235E /* LiveView.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LiveView.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DCDDCD0245A2436CEE749FB7 /* Pods-MyPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlayground.debug.xcconfig"; path = "Target Support Files/Pods-MyPlayground/Pods-MyPlayground.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,19 +117,66 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CE036AC42B61286C00CF6487 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				CE036AC72B61287D00CF6487 /* Calculator */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		CE036AC72B61287D00CF6487 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				CE036AC82B6128A100CF6487 /* Calculator.xcodeproj */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		CE036AC92B6128A100CF6487 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE036ACD2B6128A100CF6487 /* Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE1180E22B341A8600AB42A1 /* Concurrency */ = {
+			isa = PBXGroup;
+			children = (
+				CE228E2B2B3C13C0002DF8B8 /* SwiftConcurrency.playground */,
+				CEA0F8BC2B3C1A4400EB883B /* AsyncLetDemoView.swift */,
+				CEA0F8BE2B3C28CE00EB883B /* UserTaskGroupDemoView.swift */,
+				CEA0F9352B3D8C0B00EB883B /* StructuredDemoView.swift */,
+				CEA0F9372B3E9BB800EB883B /* Actor.playground */,
+				CE9853802B3EA2030017B732 /* Global Actor.playground */,
+				CE9853812B3EA2190017B732 /* Task & Actor.playground */,
+				CE8E3ABC2B31A52400CD1F3A /* ConcurrencyView.swift */,
+			);
+			path = Concurrency;
+			sourceTree = "<group>";
+		};
 		CE4A6D932AF88C9100E610D0 /* Xcode15_New */ = {
 			isa = PBXGroup;
 			children = (
 				CE95C9222AF8931F00DEB25E /* Xcode15_New.swift */,
-				CE67332C2AF4D69A0081544C /* Localizable.xcstrings */,
 				CE10260A2AF8947B008110E6 /* Xcode15_New_AssetCatalogs.swift */,
 				CE10262C2AF8B70C008110E6 /* Xcode15_New_StringCatalogs.swift */,
+				CE5F92492B61015B00ACA09E /* Localizable.xcstrings */,
 				CE10262E2AF8B866008110E6 /* Xcode15_New_Swift-DocC.swift */,
 				CE1026302AF8B9A0008110E6 /* Xcode15_New_Swift_Macros.swift */,
 				CE50C4FE2AF0D4EA00816038 /* Xcode15_New_Previews.swift */,
 				CE1026322AF8BA37008110E6 /* Xcode15_New_Bookmark.swift */,
 			);
 			path = Xcode15_New;
+			sourceTree = "<group>";
+		};
+		CE9853E22B43E85F0017B732 /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				CE9853E32B43E87C0017B732 /* CombineView.swift */,
+			);
+			path = Combine;
 			sourceTree = "<group>";
 		};
 		CEAD9CFE2AA0941000DF6212 = {
@@ -120,11 +202,13 @@
 			children = (
 				CEAD9D5E2AA1AF0400DF6212 /* Model */,
 				CEAD9D0A2AA0941000DF6212 /* MyPlaygroundApp.swift */,
-				CE8E3ABB2B31A52400CD1F3A /* ChaoCodeView.swift */,
-				CE8E3ABC2B31A52400CD1F3A /* ConcurrencyView.swift */,
-				CE4A6D902AF882C100E610D0 /* UIViewWrapper.swift */,
-				CE1026262AF8B030008110E6 /* UIViewControllerWrapper.swift */,
-				CEEEF08C2B0B499500521143 /* File.swift */,
+				CE1181052B391BC300AB42A1 /* ContentView.swift */,
+				CE93BA1A2B3AA74800928EAD /* MVVMView.swift */,
+				CE036AC42B61286C00CF6487 /* SwiftUI */,
+				CEE84CCE2B61089E00A079CA /* AppleSwiftUI */,
+				CEEAA3202B4EB460003CF6E9 /* ChaoCodeSwiftUI */,
+				CE9853E22B43E85F0017B732 /* Combine */,
+				CE1180E22B341A8600AB42A1 /* Concurrency */,
 				CE4A6D932AF88C9100E610D0 /* Xcode15_New */,
 				CE50C4FA2AF0D3BC00816038 /* MyPlayground.playground */,
 				CE486AD32AF1041A00A4657F /* PhantomType.playground */,
@@ -154,6 +238,54 @@
 				CEAD9D632AA1AF4700DF6212 /* Book.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		CEE84CCE2B61089E00A079CA /* AppleSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				CEE84CCF2B61089E00A079CA /* Landmarks */,
+			);
+			path = AppleSwiftUI;
+			sourceTree = "<group>";
+		};
+		CEE84CCF2B61089E00A079CA /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				CEE84CF92B61093600A079CA /* Landmarks.xcodeproj */,
+			);
+			path = Landmarks;
+			sourceTree = "<group>";
+		};
+		CEE84CFA2B61093600A079CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE84CFE2B61093600A079CA /* Landmarks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEEAA3202B4EB460003CF6E9 /* ChaoCodeSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				CEEAA3212B4EB460003CF6E9 /* FoodPicker */,
+			);
+			path = ChaoCodeSwiftUI;
+			sourceTree = "<group>";
+		};
+		CEEAA3212B4EB460003CF6E9 /* FoodPicker */ = {
+			isa = PBXGroup;
+			children = (
+				CEEAA3222B4EB460003CF6E9 /* FoodPicker.xcodeproj */,
+			);
+			path = FoodPicker;
+			sourceTree = "<group>";
+		};
+		CEEAA3232B4EB460003CF6E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEEAA32E2B4EB460003CF6E9 /* FoodPicker.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		D11182C847FD3EC47E902B1A /* Pods */ = {
@@ -194,7 +326,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1510;
 				TargetAttributes = {
 					CEAD9D062AA0941000DF6212 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -214,12 +346,50 @@
 			mainGroup = CEAD9CFE2AA0941000DF6212;
 			productRefGroup = CEAD9D082AA0941000DF6212 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CE036AC92B6128A100CF6487 /* Products */;
+					ProjectRef = CE036AC82B6128A100CF6487 /* Calculator.xcodeproj */;
+				},
+				{
+					ProductGroup = CEEAA3232B4EB460003CF6E9 /* Products */;
+					ProjectRef = CEEAA3222B4EB460003CF6E9 /* FoodPicker.xcodeproj */;
+				},
+				{
+					ProductGroup = CEE84CFA2B61093600A079CA /* Products */;
+					ProjectRef = CEE84CF92B61093600A079CA /* Landmarks.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				CEAD9D062AA0941000DF6212 /* MyPlayground */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CE036ACD2B6128A100CF6487 /* Calculator.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Calculator.app;
+			remoteRef = CE036ACC2B6128A100CF6487 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEE84CFE2B61093600A079CA /* Landmarks.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Landmarks.app;
+			remoteRef = CEE84CFD2B61093600A079CA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEEAA32E2B4EB460003CF6E9 /* FoodPicker.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = FoodPicker.app;
+			remoteRef = CEEAA32D2B4EB460003CF6E9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		CEAD9D052AA0941000DF6212 /* Resources */ = {
@@ -228,7 +398,7 @@
 			files = (
 				CEAD9D122AA0941100DF6212 /* Preview Assets.xcassets in Resources */,
 				CE10262B2AF8B49A008110E6 /* Storyboard.storyboard in Resources */,
-				CE67332D2AF4D69A0081544C /* Localizable.xcstrings in Resources */,
+				CE5F924A2B61015B00ACA09E /* Localizable.xcstrings in Resources */,
 				CEAD9D0F2AA0941100DF6212 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,19 +437,21 @@
 			files = (
 				CE10262D2AF8B70C008110E6 /* Xcode15_New_StringCatalogs.swift in Sources */,
 				CE95C9232AF8931F00DEB25E /* Xcode15_New.swift in Sources */,
+				CEA0F9362B3D8C0B00EB883B /* StructuredDemoView.swift in Sources */,
+				CEA0F8BF2B3C28CE00EB883B /* UserTaskGroupDemoView.swift in Sources */,
+				CE1181062B391BC300AB42A1 /* ContentView.swift in Sources */,
 				CE1026312AF8B9A0008110E6 /* Xcode15_New_Swift_Macros.swift in Sources */,
 				CE50C4FF2AF0D4EA00816038 /* Xcode15_New_Previews.swift in Sources */,
 				CE10262F2AF8B866008110E6 /* Xcode15_New_Swift-DocC.swift in Sources */,
+				CE9853E42B43E87C0017B732 /* CombineView.swift in Sources */,
+				CEA0F8BD2B3C1A4400EB883B /* AsyncLetDemoView.swift in Sources */,
 				CE1026332AF8BA37008110E6 /* Xcode15_New_Bookmark.swift in Sources */,
 				CE8E3ABE2B31A52400CD1F3A /* ConcurrencyView.swift in Sources */,
 				CEAD9D602AA1AF1B00DF6212 /* Language.swift in Sources */,
+				CE93BA1B2B3AA74800928EAD /* MVVMView.swift in Sources */,
 				CEAD9D622AA1AF3B00DF6212 /* Author.swift in Sources */,
 				CEAD9D642AA1AF4700DF6212 /* Book.swift in Sources */,
-				CEEEF08D2B0B499500521143 /* File.swift in Sources */,
-				CE4A6D912AF882C100E610D0 /* UIViewWrapper.swift in Sources */,
 				CE10260B2AF8947B008110E6 /* Xcode15_New_AssetCatalogs.swift in Sources */,
-				CE8E3ABD2B31A52400CD1F3A /* ChaoCodeView.swift in Sources */,
-				CE1026272AF8B030008110E6 /* UIViewControllerWrapper.swift in Sources */,
 				CEAD9D0B2AA0941000DF6212 /* MyPlaygroundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +463,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -353,6 +526,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -422,15 +596,15 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LOCALIZED_STRING_SWIFTUI_SUPPORT = NO;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tom.MyPlayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -453,15 +627,15 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LOCALIZED_STRING_SWIFTUI_SUPPORT = NO;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tom.MyPlayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

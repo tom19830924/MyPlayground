@@ -68,4 +68,4 @@ print(cellViewModel.books.filter(subject: .English, on: \.language), terminator:
 print(cellViewModel.books.filter(subject: "Dan Brown", on: \.author.name), terminator: "\n\n")
 //print(cellViewModel.books.filter(subject: "Andrzej Sapkowski", on: \.author.name))
 
-//["1","2","3"].filter(language: .English, on: \.count)
+//["1","2","3÷"].filter(language: .English, on: \.count)

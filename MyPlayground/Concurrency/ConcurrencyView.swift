@@ -83,7 +83,7 @@ struct ConcurrencyView: View {
     }
     func fetchData() async throws {
 //        try await 依序送出＿每個Request等待上一個完成()
-        try await 同時送出_但時間顯示會有問題()
+//        try await 同時送出_但時間顯示會有問題()
 
         
         // Structured Concurrency, group wait, 全部做完才會往下走
@@ -100,40 +100,40 @@ struct ConcurrencyView: View {
 //        try await log(c)
 //        try await log(d)
 //        try await log(e)
-//        try await items = [a,b,c,d,e]  // 這是要全部完成才會顯示, 跟上面略有不同
+////        try await items = [a,b,c,d,e]  // 這是要全部完成才會顯示, 跟上面略有不同
 //        message = getElapsedTime(from: startTime)
         
         
         // Structured Concurrency
 //        let startTime = Date.now
-//        await withTaskGroup(of: Void.self) { group in
+//        await withThrowingTaskGroup(of: Void.self) { group in
 //            group.addTask {
-//                log(await fetchEcho(echo: "1"))
+//                log(try await fetchEcho(echo: "1"))
 //            }
 //            group.addTask {
-//                log(await fetchEcho(echo: "2"))
+//                log(try await fetchEcho(echo: "2"))
 //            }
 //            group.addTask {
-//                log(await fetchEcho(echo: "3"))
+//                log(try await fetchEcho(echo: "3"))
 //            }
 //            group.addTask {
-//                log(await fetchEcho(echo: "4"))
+//                log(try await fetchEcho(echo: "4"))
 //            }
 //            group.addTask {
-//                log(await fetchEcho(echo: "5"))
+//                log(try await fetchEcho(echo: "5"))
 //            }
 //        }
 //        message = getElapsedTime(from: startTime)
         
 //        let startTime = Date.now
-//        await withTaskGroup(of: String.self) { group in
+//        try await withThrowingTaskGroup(of: String.self) { group in
 //            ["1","2","3","4","5"].forEach { s in
 //                group.addTask {
 //                    async let r = fetchEcho(echo: s)
-//                    return await r
+//                    return try await r
 //                }
 //            }
-//            for await s in group {
+//            for try await s in group {
 //                items += [s]
 //            }
 //        }

@@ -5,7 +5,7 @@ import SwiftUI
 struct Xcode15_New_StringCatalogs: View {
     var body: some View {
         VStack {
-            Text("hello-title")
+            Text("hello-world")
         }
         
     }
@@ -13,5 +13,19 @@ struct Xcode15_New_StringCatalogs: View {
 
 #Preview {
     Xcode15_New_StringCatalogs()
+        .environment(\.locale, .init(identifier: "en"))
+}
+
+#Preview {
+    Xcode15_New_StringCatalogs()
         .environment(\.locale, .init(identifier: "zh-hant"))
+}
+
+#Preview {
+    Xcode15_New_StringCatalogs()
+        .environment(\.locale, .init(identifier: "de"))
+}
+
+#Preview {
+    Xcode15_New_StringCatalogs()
 }

@@ -7,7 +7,6 @@ target 'MyPlayground' do
   inhibit_all_warnings!
 
   # Pods for MyPlayground
-  pod 'RxCocoa'
   pod 'SDWebImage'
 end
 

@@ -2,30 +2,69 @@ import Foundation
 import Combine
 import UIKit
 import SwiftUI
+import PlaygroundSupport
 
-protocol Pizza {
-    var size: Int { get }
-    var name: String { get }
-}
-class Hawaiian: Pizza {
-    var size: Int { 6 }
-    var name: String { "Hawaiian" }
-}
+PlaygroundPage.current.setLiveView(ContentView())
 
-class Main {
-//    func receivePizza(_ pizza: Pizza) {
-//        print("Omnomnom, that's a nice \(pizza.name)")
-//    }
-    func receivePizza<T: Pizza>(_ pizza: T) {
-        print("Omnomnom, that's a nice \(pizza.name)")
+struct ContentView: View {
+    @SecondsFormat("ss") private var t1: String = "43200"
+    
+    
+    var body: some View{
+        Text($t1)
     }
 }
 
-var pizza = Hawaiian()
+let interval = TimeInterval(43200)
+let formatter = DateComponentsFormatter()
+formatter.allowedUnits = [.second]
+formatter.zeroFormattingBehavior = .pad
+//formatter.collapsesLargestUnit = true
+print(formatter.string(from: interval) ?? "nil")
 
-var main = Main()
-main.receivePizza(pizza)
+@propertyWrapper
+struct SecondsFormat {
+    
+    var wrappedValue: String
+    
+    var projectedValue: String {
+        guard var seconds = Float(wrappedValue) else {
+            return ""
+        }
+        
+        var res = format
+        var minutes = floor(Float(seconds / 60))
+        seconds -= minutes * 60
+        
+        let hours = floor(Float(minutes / 60))
+        minutes -= hours * 60
 
-//var var1: View = Text("Sample Text")
-var var2: some View = Text("Sample Text")
-var var3: any View = Text("Sample Text")
+        if res.contains("hh") {
+            res = res.replacingOccurrences(of: "hh", with: prefix(.init(hours)))
+        }
+        else {
+            minutes += hours * 60
+        }
+        
+        if res.contains("mm") {
+            res = res.replacingOccurrences(of: "mm", with: prefix(.init(minutes)))
+        }
+        else {
+            seconds += minutes * 60
+        }
+        
+        res = res.replacingOccurrences(of: "ss", with: prefix(.init(seconds)))
+        return res
+    }
+    
+    private let format: String
+    
+    init(wrappedValue: String, _ format: String = "mm:ss") {
+        self.wrappedValue = wrappedValue
+        self.format = format
+    }
+    
+    private func prefix(_ value: Int) -> String {
+        value > 9 ? "\(value)" : "0\(value)"
+    }
+}

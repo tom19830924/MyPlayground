@@ -1,10 +1,7 @@
 {
   "sourceLanguage" : "zh-Hant",
   "strings" : {
-    "" : {
-
-    },
-    "hello-title" : {
+    "hello-world" : {
       "extractionState" : "manual",
       "localizations" : {
         "de" : {
@@ -26,44 +23,6 @@
           }
         }
       }
-    },
-    "Hello, world!" : {
-
-    },
-    "HTTP Fetch" : {
-
-    },
-    "spider-title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Spider-Man: Across the Spider-Verse"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Spider-Man: Across the Spider verse"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "蜘蛛人：穿越新宇宙"
-          }
-        }
-      }
-    },
-    "WebSocket connection" : {
-
-    },
-    "WebSocket Send" : {
-
-    },
-    "切到手" : {
-
     }
   },
   "version" : "1.0"
