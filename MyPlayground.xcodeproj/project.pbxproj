@@ -33,23 +33,30 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CE036ACC2B6128A100CF6487 /* PBXContainerItemProxy */ = {
+		CEF413172B7343F000CC0B2E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CE036AC82B6128A100CF6487 /* Calculator.xcodeproj */;
+			containerPortal = CEF413132B7343F000CC0B2E /* PokeMaster.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEF412F22B7343B200CC0B2E;
+			remoteInfo = PokeMaster;
+		};
+		CEF4131D2B73444F00CC0B2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF413192B73444F00CC0B2E /* Calculator.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = CE9DF5072B46A81D0010630F;
 			remoteInfo = Calculator;
 		};
-		CEE84CFD2B61093600A079CA /* PBXContainerItemProxy */ = {
+		CEF413232B73445F00CC0B2E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CEE84CF92B61093600A079CA /* Landmarks.xcodeproj */;
+			containerPortal = CEF4131F2B73445F00CC0B2E /* Landmarks.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = CE9854282B455DC10017B732;
 			remoteInfo = Landmarks;
 		};
-		CEEAA32D2B4EB460003CF6E9 /* PBXContainerItemProxy */ = {
+		CEF413292B73446B00CC0B2E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CEEAA3222B4EB460003CF6E9 /* FoodPicker.xcodeproj */;
+			containerPortal = CEF413252B73446B00CC0B2E /* FoodPicker.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = CE31E39E2B4BB626008355F0;
 			remoteInfo = FoodPicker;
@@ -59,7 +66,6 @@
 /* Begin PBXFileReference section */
 		47973E878E866F4B3A62CB90 /* Pods-MyPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlayground.release.xcconfig"; path = "Target Support Files/Pods-MyPlayground/Pods-MyPlayground.release.xcconfig"; sourceTree = "<group>"; };
 		A6A1D0D4FAE3AD37D09D94AC /* libPods-MyPlayground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyPlayground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE036AC82B6128A100CF6487 /* Calculator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Calculator.xcodeproj; sourceTree = "<group>"; };
 		CE10260A2AF8947B008110E6 /* Xcode15_New_AssetCatalogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode15_New_AssetCatalogs.swift; sourceTree = "<group>"; };
 		CE10262A2AF8B49A008110E6 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		CE10262C2AF8B70C008110E6 /* Xcode15_New_StringCatalogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode15_New_StringCatalogs.swift; sourceTree = "<group>"; };
@@ -91,8 +97,10 @@
 		CEAD9D5F2AA1AF1B00DF6212 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
 		CEAD9D612AA1AF3B00DF6212 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
 		CEAD9D632AA1AF4700DF6212 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
-		CEE84CF92B61093600A079CA /* Landmarks.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Landmarks.xcodeproj; sourceTree = "<group>"; };
-		CEEAA3222B4EB460003CF6E9 /* FoodPicker.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = FoodPicker.xcodeproj; sourceTree = "<group>"; };
+		CEF413132B7343F000CC0B2E /* PokeMaster.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PokeMaster.xcodeproj; path = PokeMaster/PokeMaster.xcodeproj; sourceTree = "<group>"; };
+		CEF413192B73444F00CC0B2E /* Calculator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Calculator.xcodeproj; path = Calculator/Calculator.xcodeproj; sourceTree = "<group>"; };
+		CEF4131F2B73445F00CC0B2E /* Landmarks.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Landmarks.xcodeproj; path = Landmarks/Landmarks.xcodeproj; sourceTree = "<group>"; };
+		CEF413252B73446B00CC0B2E /* FoodPicker.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FoodPicker.xcodeproj; path = FoodPicker/FoodPicker.xcodeproj; sourceTree = "<group>"; };
 		CEFD555F2AD006930047235E /* LiveView.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LiveView.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DCDDCD0245A2436CEE749FB7 /* Pods-MyPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlayground.debug.xcconfig"; path = "Target Support Files/Pods-MyPlayground/Pods-MyPlayground.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,25 +128,10 @@
 		CE036AC42B61286C00CF6487 /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				CE036AC72B61287D00CF6487 /* Calculator */,
+				CEF413192B73444F00CC0B2E /* Calculator.xcodeproj */,
+				CEF413132B7343F000CC0B2E /* PokeMaster.xcodeproj */,
 			);
 			path = SwiftUI;
-			sourceTree = "<group>";
-		};
-		CE036AC72B61287D00CF6487 /* Calculator */ = {
-			isa = PBXGroup;
-			children = (
-				CE036AC82B6128A100CF6487 /* Calculator.xcodeproj */,
-			);
-			path = Calculator;
-			sourceTree = "<group>";
-		};
-		CE036AC92B6128A100CF6487 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CE036ACD2B6128A100CF6487 /* Calculator.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		CE1180E22B341A8600AB42A1 /* Concurrency */ = {
@@ -243,47 +236,47 @@
 		CEE84CCE2B61089E00A079CA /* AppleSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				CEE84CCF2B61089E00A079CA /* Landmarks */,
+				CEF4131F2B73445F00CC0B2E /* Landmarks.xcodeproj */,
 			);
 			path = AppleSwiftUI;
-			sourceTree = "<group>";
-		};
-		CEE84CCF2B61089E00A079CA /* Landmarks */ = {
-			isa = PBXGroup;
-			children = (
-				CEE84CF92B61093600A079CA /* Landmarks.xcodeproj */,
-			);
-			path = Landmarks;
-			sourceTree = "<group>";
-		};
-		CEE84CFA2B61093600A079CA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CEE84CFE2B61093600A079CA /* Landmarks.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		CEEAA3202B4EB460003CF6E9 /* ChaoCodeSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				CEEAA3212B4EB460003CF6E9 /* FoodPicker */,
+				CEF413252B73446B00CC0B2E /* FoodPicker.xcodeproj */,
 			);
 			path = ChaoCodeSwiftUI;
 			sourceTree = "<group>";
 		};
-		CEEAA3212B4EB460003CF6E9 /* FoodPicker */ = {
+		CEF413142B7343F000CC0B2E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEEAA3222B4EB460003CF6E9 /* FoodPicker.xcodeproj */,
+				CEF413182B7343F000CC0B2E /* PokeMaster.app */,
 			);
-			path = FoodPicker;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		CEEAA3232B4EB460003CF6E9 /* Products */ = {
+		CEF4131A2B73444F00CC0B2E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEEAA32E2B4EB460003CF6E9 /* FoodPicker.app */,
+				CEF4131E2B73444F00CC0B2E /* Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF413202B73445F00CC0B2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF413242B73445F00CC0B2E /* Landmarks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF413262B73446B00CC0B2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF4132A2B73446B00CC0B2E /* FoodPicker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -348,16 +341,20 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = CE036AC92B6128A100CF6487 /* Products */;
-					ProjectRef = CE036AC82B6128A100CF6487 /* Calculator.xcodeproj */;
+					ProductGroup = CEF4131A2B73444F00CC0B2E /* Products */;
+					ProjectRef = CEF413192B73444F00CC0B2E /* Calculator.xcodeproj */;
 				},
 				{
-					ProductGroup = CEEAA3232B4EB460003CF6E9 /* Products */;
-					ProjectRef = CEEAA3222B4EB460003CF6E9 /* FoodPicker.xcodeproj */;
+					ProductGroup = CEF413262B73446B00CC0B2E /* Products */;
+					ProjectRef = CEF413252B73446B00CC0B2E /* FoodPicker.xcodeproj */;
 				},
 				{
-					ProductGroup = CEE84CFA2B61093600A079CA /* Products */;
-					ProjectRef = CEE84CF92B61093600A079CA /* Landmarks.xcodeproj */;
+					ProductGroup = CEF413202B73445F00CC0B2E /* Products */;
+					ProjectRef = CEF4131F2B73445F00CC0B2E /* Landmarks.xcodeproj */;
+				},
+				{
+					ProductGroup = CEF413142B7343F000CC0B2E /* Products */;
+					ProjectRef = CEF413132B7343F000CC0B2E /* PokeMaster.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -368,25 +365,32 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		CE036ACD2B6128A100CF6487 /* Calculator.app */ = {
+		CEF413182B7343F000CC0B2E /* PokeMaster.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = PokeMaster.app;
+			remoteRef = CEF413172B7343F000CC0B2E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEF4131E2B73444F00CC0B2E /* Calculator.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = Calculator.app;
-			remoteRef = CE036ACC2B6128A100CF6487 /* PBXContainerItemProxy */;
+			remoteRef = CEF4131D2B73444F00CC0B2E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		CEE84CFE2B61093600A079CA /* Landmarks.app */ = {
+		CEF413242B73445F00CC0B2E /* Landmarks.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = Landmarks.app;
-			remoteRef = CEE84CFD2B61093600A079CA /* PBXContainerItemProxy */;
+			remoteRef = CEF413232B73445F00CC0B2E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		CEEAA32E2B4EB460003CF6E9 /* FoodPicker.app */ = {
+		CEF4132A2B73446B00CC0B2E /* FoodPicker.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = FoodPicker.app;
-			remoteRef = CEEAA32D2B4EB460003CF6E9 /* PBXContainerItemProxy */;
+			remoteRef = CEF413292B73446B00CC0B2E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
