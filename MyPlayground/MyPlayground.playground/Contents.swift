@@ -6,8 +6,14 @@ import PlaygroundSupport
 
 PlaygroundPage.current.setLiveView(ContentView())
 struct ContentView: View {
+    var a = DateInterval(start: Date(), end: Date(timeIntervalSinceNow: 3600))
+    var hello = "HelloWorld"
     var body: some View {
+        Text(hello)
         Text("HelloWorld")
+        
+        Text("Date: \(Date(), style: .date)")
+        Text("Meeting: \(a)")
     }
 }
 

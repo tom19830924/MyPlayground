@@ -61,4 +61,16 @@ extension AbilityViewModel {
         }
     }
 }
+
+extension Store {
+    static var sample: Store {
+        let s = Store()
+        s.appState.pokemonList.pokemons =
+            Dictionary(uniqueKeysWithValues: PokemonViewModel.all.map { ($0.id, $0) })
+        s.appState.pokemonList.abilities =
+            Dictionary(uniqueKeysWithValues: AbilityViewModel.sample(pokemonID: 1).map { ($0.id, $0) } )
+        return s
+    }
+}
+
 #endif

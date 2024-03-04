@@ -30,28 +30,27 @@ struct SettingView: View {
     var accountSecion: some View {
         Section(header: Text("帳戶")) {
             if settings.loginUser == nil {
-                Picker(selection: settingsBinding.accountBehavior) {
+                Picker(selection: settingsBinding.checker.accountBehavior, label: Text("")) {
                     ForEach(AppState.Settings.AccountBehavior.allCases, id: \.self) {
                         Text($0.text)
                     }
-                } label: {
-                    Text("")
                 }
                 .pickerStyle(SegmentedPickerStyle())
+
+                TextField("電子郵件", text: settingsBinding.checker.email)
+                    .foregroundColor(settings.isEmailValid ? .green : .red)
+                SecureField("密碼", text: settingsBinding.checker.password)
                 
-                TextField("電子郵件", text: settingsBinding.email)
-                SecureField("密碼", text: settingsBinding.password)
-                
-                if settings.accountBehavior == .register {
-                    SecureField("確認密碼", text: settingsBinding.verifyPassword)
+                if settings.checker.accountBehavior == .register {
+                    SecureField("確認密碼", text: settingsBinding.checker.verifyPassword)
                 }
                 
                 if settings.loginRequesting {
                     Text("登入中...")
                 }
                 else {
-                    Button(settings.accountBehavior.text) {
-                        self.store.dispatch(.login(email: self.settings.email, password: self.settings.password))
+                    Button(settings.checker.accountBehavior.text) {
+                        self.store.dispatch(.login(email: self.settings.checker.email, password: self.settings.checker.password))
                     }
                 }
             }
@@ -84,7 +83,7 @@ struct SettingView: View {
     var actionSection: some View {
         Section {
             Button(action: {
-                print("清空缓存")
+                self.store.dispatch(.clearCache)
             }) {
                 Text("清空缓存").foregroundColor(.red)
             }

@@ -11,7 +11,7 @@ import SwiftUI
 struct PokeMasterApp: App {
     var body: some Scene {
         WindowGroup {
-            PokemonRootView()
+            MainTab().environmentObject(Store())
         }
     }
 }

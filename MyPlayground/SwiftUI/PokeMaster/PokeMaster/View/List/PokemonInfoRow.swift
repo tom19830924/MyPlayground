@@ -6,15 +6,18 @@
 //
 
 import SwiftUI
+import Kingfisher
 
 struct PokemonInfoRow: View {
+    @EnvironmentObject var store: Store
+    
     let model: PokemonViewModel
     var expanded: Bool
     
     var body: some View {
         VStack {
             HStack {
-                Image("Pokemon-\(model.id)")
+                KFImage(model.iconImageURL)
                     .resizable()
                     .frame(width: 50, height: 50)
                     .aspectRatio(contentMode: .fit)
@@ -40,7 +43,10 @@ struct PokemonInfoRow: View {
                     Image(systemName: "star")
                         .modifier(ToolButtonModifier())
                 }
-                Button(action: { print("Panel") }) {
+                Button(action: {
+                    let target = !store.appState.pokemonList.selectionState.panelPresented
+                    store.dispatch(.togglePanelPresenting(presenting: target))
+                }) {
                     Image(systemName: "chart.bar")
                         .modifier(ToolButtonModifier())
                 }

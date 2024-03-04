@@ -8,38 +8,26 @@
 import SwiftUI
 
 struct PokemonList: View {
-    @State var expandingIndex: Int?
-    @State var searchText: String = ""
+    @EnvironmentObject var store: Store
+    var pokemonList: AppState.PokemonList { store.appState.pokemonList }
     
     var body: some View {
         ScrollView {
             LazyVStack {
-                TextField("搜索", text: $searchText)
+                TextField("搜索", text: $store.appState.pokemonList.searchText)
                     .frame(height: 40)
                     .padding(.horizontal, 25)
-                ForEach(PokemonViewModel.all) { pokemon in
-                    PokemonInfoRow(model: pokemon,
-                                   expanded: self.expandingIndex == pokemon.id
-                    )
-                    .onTapGesture {
-                        withAnimation(.spring(response: 0.55, dampingFraction: 0.425, blendDuration: 0)) {
-                            if expandingIndex == pokemon.id {
-                                expandingIndex = nil
-                            } else {
-                                expandingIndex = pokemon.id
+                ForEach(pokemonList.allPokemonsById) { pokemon in
+                    PokemonInfoRow(model: pokemon, expanded: store.appState.pokemonList.selectionState.isExpanding(pokemon.id))
+                        .onTapGesture {
+                            withAnimation(.spring(response: 0.55, dampingFraction: 0.425, blendDuration: 0)) {
+                                store.dispatch(.toggleListSelection(index: pokemon.id))
                             }
+                            store.dispatch(.loadAbilities(pokemon: pokemon.pokemon))
                         }
-                    }
                 }
             }
         }
-//        .overlay {
-//            VStack {
-//                Spacer()
-//                PokemonInfoPanel(model: .sample(id: 1))
-//            }
-//            .ignoresSafeArea(edges: .bottom)
-//        }
     }
 }
 

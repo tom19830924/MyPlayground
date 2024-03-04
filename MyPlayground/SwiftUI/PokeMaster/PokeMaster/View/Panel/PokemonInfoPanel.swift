@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct PokemonInfoPanel: View {
+    @EnvironmentObject var store: Store
+    
     let model: PokemonViewModel
     
-    var abilities: [AbilityViewModel] {
-        AbilityViewModel.sample(pokemonID: model.id)
+    var abilities: [AbilityViewModel]? {
+        store.appState.pokemonList.abilityViewModels(for: model.pokemon)
     }
+    
     var topIndicator: some View {
         RoundedRectangle(cornerRadius: 3)
             .frame(width: 40, height: 6)
@@ -50,4 +53,5 @@ struct PokemonInfoPanel: View {
 
 #Preview(traits: .sizeThatFitsLayout) {
     PokemonInfoPanel(model: .sample(id: 1))
+        .environmentObject(Store.sample)
 }
