@@ -18,21 +18,53 @@
 		CE50C4FF2AF0D4EA00816038 /* Xcode15_New_Previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50C4FE2AF0D4EA00816038 /* Xcode15_New_Previews.swift */; };
 		CE5F924A2B61015B00ACA09E /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = CE5F92492B61015B00ACA09E /* Localizable.xcstrings */; };
 		CE8E3ABE2B31A52400CD1F3A /* ConcurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E3ABC2B31A52400CD1F3A /* ConcurrencyView.swift */; };
-		CE93BA1B2B3AA74800928EAD /* MVVMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE93BA1A2B3AA74800928EAD /* MVVMView.swift */; };
 		CE95C9232AF8931F00DEB25E /* Xcode15_New.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95C9222AF8931F00DEB25E /* Xcode15_New.swift */; };
-		CE9853E42B43E87C0017B732 /* CombineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9853E32B43E87C0017B732 /* CombineView.swift */; };
 		CEA0F8BD2B3C1A4400EB883B /* AsyncLetDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA0F8BC2B3C1A4400EB883B /* AsyncLetDemoView.swift */; };
 		CEA0F8BF2B3C28CE00EB883B /* UserTaskGroupDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA0F8BE2B3C28CE00EB883B /* UserTaskGroupDemoView.swift */; };
 		CEA0F9362B3D8C0B00EB883B /* StructuredDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA0F9352B3D8C0B00EB883B /* StructuredDemoView.swift */; };
 		CEAD9D0B2AA0941000DF6212 /* MyPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD9D0A2AA0941000DF6212 /* MyPlaygroundApp.swift */; };
 		CEAD9D0F2AA0941100DF6212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAD9D0E2AA0941100DF6212 /* Assets.xcassets */; };
 		CEAD9D122AA0941100DF6212 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAD9D112AA0941100DF6212 /* Preview Assets.xcassets */; };
-		CEAD9D602AA1AF1B00DF6212 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD9D5F2AA1AF1B00DF6212 /* Language.swift */; };
-		CEAD9D622AA1AF3B00DF6212 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD9D612AA1AF3B00DF6212 /* Author.swift */; };
-		CEAD9D642AA1AF4700DF6212 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD9D632AA1AF4700DF6212 /* Book.swift */; };
+		CEBBA6972B96C3590059D51B /* OnceTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBBA6922B96C3590059D51B /* OnceTask.swift */; };
+		CEBBA6992B96C35E0059D51B /* LifeMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBBA6982B96C35E0059D51B /* LifeMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		CE28A28D2BAD5DC700212AA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE28A2862BAD5DC600212AA0 /* Playground.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE28A2752BAD5DB700212AA0;
+			remoteInfo = Playground;
+		};
+		CE28A3C72BB6BC8500212AA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE28A3C32BB6BC8500212AA0 /* Rotation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE28A2D92BB54A8E00212AA0;
+			remoteInfo = Rotation;
+		};
+		CE28A3CD2BB6BC8900212AA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE28A3C92BB6BC8900212AA0 /* ResultBuilder.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE28A3112BB6A6A400212AA0;
+			remoteInfo = ResultBuilder;
+		};
+		CE28A3D32BB6BD6300212AA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE28A3CF2BB6BD6300212AA0 /* FoodPicker.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE31E39E2B4BB626008355F0;
+			remoteInfo = FoodPicker;
+		};
+		CE28A3D92BB6BD6900212AA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE28A3D52BB6BD6900212AA0 /* Landmarks.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE9854282B455DC10017B732;
+			remoteInfo = Landmarks;
+		};
 		CEF413172B7343F000CC0B2E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CEF413132B7343F000CC0B2E /* PokeMaster.xcodeproj */;
@@ -47,20 +79,6 @@
 			remoteGlobalIDString = CE9DF5072B46A81D0010630F;
 			remoteInfo = Calculator;
 		};
-		CEF413232B73445F00CC0B2E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CEF4131F2B73445F00CC0B2E /* Landmarks.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CE9854282B455DC10017B732;
-			remoteInfo = Landmarks;
-		};
-		CEF413292B73446B00CC0B2E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CEF413252B73446B00CC0B2E /* FoodPicker.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CE31E39E2B4BB626008355F0;
-			remoteInfo = FoodPicker;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -74,17 +92,20 @@
 		CE1026322AF8BA37008110E6 /* Xcode15_New_Bookmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode15_New_Bookmark.swift; sourceTree = "<group>"; };
 		CE1181052B391BC300AB42A1 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE228E2B2B3C13C0002DF8B8 /* SwiftConcurrency.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftConcurrency.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CE28A2862BAD5DC600212AA0 /* Playground.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Playground.xcodeproj; path = Playground/Playground.xcodeproj; sourceTree = "<group>"; };
+		CE28A3C32BB6BC8500212AA0 /* Rotation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Rotation.xcodeproj; path = Rotation/Rotation.xcodeproj; sourceTree = "<group>"; };
+		CE28A3C92BB6BC8900212AA0 /* ResultBuilder.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResultBuilder.xcodeproj; path = ResultBuilder/ResultBuilder.xcodeproj; sourceTree = "<group>"; };
+		CE28A3CF2BB6BD6300212AA0 /* FoodPicker.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FoodPicker.xcodeproj; path = FoodPicker/FoodPicker.xcodeproj; sourceTree = "<group>"; };
+		CE28A3D52BB6BD6900212AA0 /* Landmarks.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Landmarks.xcodeproj; path = Landmarks/Landmarks.xcodeproj; sourceTree = "<group>"; };
 		CE486AD32AF1041A00A4657F /* PhantomType.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PhantomType.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CE50C4FA2AF0D3BC00816038 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CE50C4FB2AF0D3DB00816038 /* MarkupFormat.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MarkupFormat.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CE50C4FE2AF0D4EA00816038 /* Xcode15_New_Previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode15_New_Previews.swift; sourceTree = "<group>"; };
 		CE5F92492B61015B00ACA09E /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		CE8E3ABC2B31A52400CD1F3A /* ConcurrencyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcurrencyView.swift; sourceTree = "<group>"; };
-		CE93BA1A2B3AA74800928EAD /* MVVMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMView.swift; sourceTree = "<group>"; };
 		CE95C9222AF8931F00DEB25E /* Xcode15_New.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode15_New.swift; sourceTree = "<group>"; };
 		CE9853802B3EA2030017B732 /* Global Actor.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Global Actor.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CE9853812B3EA2190017B732 /* Task & Actor.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Task & Actor.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		CE9853E32B43E87C0017B732 /* CombineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineView.swift; sourceTree = "<group>"; };
 		CEA0F8BC2B3C1A4400EB883B /* AsyncLetDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetDemoView.swift; sourceTree = "<group>"; };
 		CEA0F8BE2B3C28CE00EB883B /* UserTaskGroupDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTaskGroupDemoView.swift; sourceTree = "<group>"; };
 		CEA0F9352B3D8C0B00EB883B /* StructuredDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuredDemoView.swift; sourceTree = "<group>"; };
@@ -93,15 +114,10 @@
 		CEAD9D0A2AA0941000DF6212 /* MyPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlaygroundApp.swift; sourceTree = "<group>"; };
 		CEAD9D0E2AA0941100DF6212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEAD9D112AA0941100DF6212 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CEAD9D2F2AA0965700DF6212 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; };
-		CEAD9D5F2AA1AF1B00DF6212 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
-		CEAD9D612AA1AF3B00DF6212 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
-		CEAD9D632AA1AF4700DF6212 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		CEBBA6922B96C3590059D51B /* OnceTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnceTask.swift; sourceTree = "<group>"; };
+		CEBBA6982B96C35E0059D51B /* LifeMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifeMonitor.swift; sourceTree = "<group>"; };
 		CEF413132B7343F000CC0B2E /* PokeMaster.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PokeMaster.xcodeproj; path = PokeMaster/PokeMaster.xcodeproj; sourceTree = "<group>"; };
 		CEF413192B73444F00CC0B2E /* Calculator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Calculator.xcodeproj; path = Calculator/Calculator.xcodeproj; sourceTree = "<group>"; };
-		CEF4131F2B73445F00CC0B2E /* Landmarks.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Landmarks.xcodeproj; path = Landmarks/Landmarks.xcodeproj; sourceTree = "<group>"; };
-		CEF413252B73446B00CC0B2E /* FoodPicker.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FoodPicker.xcodeproj; path = FoodPicker/FoodPicker.xcodeproj; sourceTree = "<group>"; };
-		CEFD555F2AD006930047235E /* LiveView.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LiveView.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DCDDCD0245A2436CEE749FB7 /* Pods-MyPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlayground.debug.xcconfig"; path = "Target Support Files/Pods-MyPlayground/Pods-MyPlayground.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +144,11 @@
 		CE036AC42B61286C00CF6487 /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				CE28A3D52BB6BD6900212AA0 /* Landmarks.xcodeproj */,
+				CE28A3CF2BB6BD6300212AA0 /* FoodPicker.xcodeproj */,
+				CE28A3C92BB6BC8900212AA0 /* ResultBuilder.xcodeproj */,
+				CE28A3C32BB6BC8500212AA0 /* Rotation.xcodeproj */,
+				CE28A2862BAD5DC600212AA0 /* Playground.xcodeproj */,
 				CEF413192B73444F00CC0B2E /* Calculator.xcodeproj */,
 				CEF413132B7343F000CC0B2E /* PokeMaster.xcodeproj */,
 			);
@@ -149,6 +170,46 @@
 			path = Concurrency;
 			sourceTree = "<group>";
 		};
+		CE28A2872BAD5DC600212AA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE28A28E2BAD5DC700212AA0 /* Playground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE28A3C42BB6BC8500212AA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE28A3C82BB6BC8500212AA0 /* Rotation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE28A3CA2BB6BC8900212AA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE28A3CE2BB6BC8900212AA0 /* ResultBuilder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE28A3D02BB6BD6300212AA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE28A3D42BB6BD6300212AA0 /* FoodPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE28A3D62BB6BD6900212AA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE28A3DA2BB6BD6900212AA0 /* Landmarks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CE4A6D932AF88C9100E610D0 /* Xcode15_New */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,17 +225,17 @@
 			path = Xcode15_New;
 			sourceTree = "<group>";
 		};
-		CE9853E22B43E85F0017B732 /* Combine */ = {
-			isa = PBXGroup;
-			children = (
-				CE9853E32B43E87C0017B732 /* CombineView.swift */,
-			);
-			path = Combine;
-			sourceTree = "<group>";
-		};
 		CEAD9CFE2AA0941000DF6212 = {
 			isa = PBXGroup;
 			children = (
+				CEBBA6982B96C35E0059D51B /* LifeMonitor.swift */,
+				CEBBA6922B96C3590059D51B /* OnceTask.swift */,
+				CE50C4FA2AF0D3BC00816038 /* MyPlayground.playground */,
+				CE486AD32AF1041A00A4657F /* PhantomType.playground */,
+				CE50C4FB2AF0D3DB00816038 /* MarkupFormat.playground */,
+				CE1180E22B341A8600AB42A1 /* Concurrency */,
+				CE4A6D932AF88C9100E610D0 /* Xcode15_New */,
+				CE036AC42B61286C00CF6487 /* SwiftUI */,
 				CEAD9D092AA0941000DF6212 /* MyPlayground */,
 				CEAD9D082AA0941000DF6212 /* Products */,
 				D11182C847FD3EC47E902B1A /* Pods */,
@@ -193,21 +254,8 @@
 		CEAD9D092AA0941000DF6212 /* MyPlayground */ = {
 			isa = PBXGroup;
 			children = (
-				CEAD9D5E2AA1AF0400DF6212 /* Model */,
 				CEAD9D0A2AA0941000DF6212 /* MyPlaygroundApp.swift */,
 				CE1181052B391BC300AB42A1 /* ContentView.swift */,
-				CE93BA1A2B3AA74800928EAD /* MVVMView.swift */,
-				CE036AC42B61286C00CF6487 /* SwiftUI */,
-				CEE84CCE2B61089E00A079CA /* AppleSwiftUI */,
-				CEEAA3202B4EB460003CF6E9 /* ChaoCodeSwiftUI */,
-				CE9853E22B43E85F0017B732 /* Combine */,
-				CE1180E22B341A8600AB42A1 /* Concurrency */,
-				CE4A6D932AF88C9100E610D0 /* Xcode15_New */,
-				CE50C4FA2AF0D3BC00816038 /* MyPlayground.playground */,
-				CE486AD32AF1041A00A4657F /* PhantomType.playground */,
-				CE50C4FB2AF0D3DB00816038 /* MarkupFormat.playground */,
-				CEFD555F2AD006930047235E /* LiveView.playground */,
-				CEAD9D2F2AA0965700DF6212 /* Playground.playground */,
 				CEAD9D0E2AA0941100DF6212 /* Assets.xcassets */,
 				CE10262A2AF8B49A008110E6 /* Storyboard.storyboard */,
 				CEAD9D102AA0941100DF6212 /* Preview Content */,
@@ -223,32 +271,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		CEAD9D5E2AA1AF0400DF6212 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				CEAD9D5F2AA1AF1B00DF6212 /* Language.swift */,
-				CEAD9D612AA1AF3B00DF6212 /* Author.swift */,
-				CEAD9D632AA1AF4700DF6212 /* Book.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CEE84CCE2B61089E00A079CA /* AppleSwiftUI */ = {
-			isa = PBXGroup;
-			children = (
-				CEF4131F2B73445F00CC0B2E /* Landmarks.xcodeproj */,
-			);
-			path = AppleSwiftUI;
-			sourceTree = "<group>";
-		};
-		CEEAA3202B4EB460003CF6E9 /* ChaoCodeSwiftUI */ = {
-			isa = PBXGroup;
-			children = (
-				CEF413252B73446B00CC0B2E /* FoodPicker.xcodeproj */,
-			);
-			path = ChaoCodeSwiftUI;
-			sourceTree = "<group>";
-		};
 		CEF413142B7343F000CC0B2E /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,22 +283,6 @@
 			isa = PBXGroup;
 			children = (
 				CEF4131E2B73444F00CC0B2E /* Calculator.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		CEF413202B73445F00CC0B2E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CEF413242B73445F00CC0B2E /* Landmarks.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		CEF413262B73446B00CC0B2E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CEF4132A2B73446B00CC0B2E /* FoodPicker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -345,16 +351,28 @@
 					ProjectRef = CEF413192B73444F00CC0B2E /* Calculator.xcodeproj */;
 				},
 				{
-					ProductGroup = CEF413262B73446B00CC0B2E /* Products */;
-					ProjectRef = CEF413252B73446B00CC0B2E /* FoodPicker.xcodeproj */;
+					ProductGroup = CE28A3D02BB6BD6300212AA0 /* Products */;
+					ProjectRef = CE28A3CF2BB6BD6300212AA0 /* FoodPicker.xcodeproj */;
 				},
 				{
-					ProductGroup = CEF413202B73445F00CC0B2E /* Products */;
-					ProjectRef = CEF4131F2B73445F00CC0B2E /* Landmarks.xcodeproj */;
+					ProductGroup = CE28A3D62BB6BD6900212AA0 /* Products */;
+					ProjectRef = CE28A3D52BB6BD6900212AA0 /* Landmarks.xcodeproj */;
+				},
+				{
+					ProductGroup = CE28A2872BAD5DC600212AA0 /* Products */;
+					ProjectRef = CE28A2862BAD5DC600212AA0 /* Playground.xcodeproj */;
 				},
 				{
 					ProductGroup = CEF413142B7343F000CC0B2E /* Products */;
 					ProjectRef = CEF413132B7343F000CC0B2E /* PokeMaster.xcodeproj */;
+				},
+				{
+					ProductGroup = CE28A3CA2BB6BC8900212AA0 /* Products */;
+					ProjectRef = CE28A3C92BB6BC8900212AA0 /* ResultBuilder.xcodeproj */;
+				},
+				{
+					ProductGroup = CE28A3C42BB6BC8500212AA0 /* Products */;
+					ProjectRef = CE28A3C32BB6BC8500212AA0 /* Rotation.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -365,6 +383,41 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		CE28A28E2BAD5DC700212AA0 /* Playground.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Playground.app;
+			remoteRef = CE28A28D2BAD5DC700212AA0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE28A3C82BB6BC8500212AA0 /* Rotation.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Rotation.app;
+			remoteRef = CE28A3C72BB6BC8500212AA0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE28A3CE2BB6BC8900212AA0 /* ResultBuilder.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ResultBuilder.app;
+			remoteRef = CE28A3CD2BB6BC8900212AA0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE28A3D42BB6BD6300212AA0 /* FoodPicker.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = FoodPicker.app;
+			remoteRef = CE28A3D32BB6BD6300212AA0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE28A3DA2BB6BD6900212AA0 /* Landmarks.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Landmarks.app;
+			remoteRef = CE28A3D92BB6BD6900212AA0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		CEF413182B7343F000CC0B2E /* PokeMaster.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
@@ -377,20 +430,6 @@
 			fileType = wrapper.application;
 			path = Calculator.app;
 			remoteRef = CEF4131D2B73444F00CC0B2E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		CEF413242B73445F00CC0B2E /* Landmarks.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = Landmarks.app;
-			remoteRef = CEF413232B73445F00CC0B2E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		CEF4132A2B73446B00CC0B2E /* FoodPicker.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = FoodPicker.app;
-			remoteRef = CEF413292B73446B00CC0B2E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -447,14 +486,11 @@
 				CE1026312AF8B9A0008110E6 /* Xcode15_New_Swift_Macros.swift in Sources */,
 				CE50C4FF2AF0D4EA00816038 /* Xcode15_New_Previews.swift in Sources */,
 				CE10262F2AF8B866008110E6 /* Xcode15_New_Swift-DocC.swift in Sources */,
-				CE9853E42B43E87C0017B732 /* CombineView.swift in Sources */,
+				CEBBA6992B96C35E0059D51B /* LifeMonitor.swift in Sources */,
+				CEBBA6972B96C3590059D51B /* OnceTask.swift in Sources */,
 				CEA0F8BD2B3C1A4400EB883B /* AsyncLetDemoView.swift in Sources */,
 				CE1026332AF8BA37008110E6 /* Xcode15_New_Bookmark.swift in Sources */,
 				CE8E3ABE2B31A52400CD1F3A /* ConcurrencyView.swift in Sources */,
-				CEAD9D602AA1AF1B00DF6212 /* Language.swift in Sources */,
-				CE93BA1B2B3AA74800928EAD /* MVVMView.swift in Sources */,
-				CEAD9D622AA1AF3B00DF6212 /* Author.swift in Sources */,
-				CEAD9D642AA1AF4700DF6212 /* Book.swift in Sources */,
 				CE10260B2AF8947B008110E6 /* Xcode15_New_AssetCatalogs.swift in Sources */,
 				CEAD9D0B2AA0941000DF6212 /* MyPlaygroundApp.swift in Sources */,
 			);

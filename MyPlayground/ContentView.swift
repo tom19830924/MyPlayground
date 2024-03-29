@@ -9,13 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        VStack(spacing: 25) {
+            sfSymbolWithLabel("person.fill")
+            sfSymbolWithLabel("house.fill")
         }
-        .padding()
+    }
+    
+    private func sfSymbolWithLabel(_ name: String) -> some View {
+        HStack {
+            Group {
+                Image(systemName: name)
+                Text(name)
+            }
+            .font(.system(size: 30))
+            .foregroundColor(.blue)
+        }
     }
 }
 
