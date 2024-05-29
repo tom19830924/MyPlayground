@@ -33,6 +33,9 @@ struct PokemonList: View {
         .onAppear {
             store.dispatch(.loadPokemons)
         }
+        .refreshable {
+            print("GG")
+        }
     }
 }
 

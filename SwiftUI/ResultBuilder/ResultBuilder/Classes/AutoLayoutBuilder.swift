@@ -8,11 +8,7 @@
 import UIKit
 
 @resultBuilder
-class AutoLayoutBuilder {
-    //    static func buildBlock(_ components: NSLayoutConstraint...) -> [NSLayoutConstraint] {
-    //        components
-    //    }
-    
+struct AutoLayoutBuilder {
     static func buildBlock(_ components: [NSLayoutConstraint]...) -> [NSLayoutConstraint] {
         components.flatMap { $0 }
     }

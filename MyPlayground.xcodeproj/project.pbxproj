@@ -15,6 +15,7 @@
 		CE1026312AF8B9A0008110E6 /* Xcode15_New_Swift_Macros.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1026302AF8B9A0008110E6 /* Xcode15_New_Swift_Macros.swift */; };
 		CE1026332AF8BA37008110E6 /* Xcode15_New_Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1026322AF8BA37008110E6 /* Xcode15_New_Bookmark.swift */; };
 		CE1181062B391BC300AB42A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1181052B391BC300AB42A1 /* ContentView.swift */; };
+		CE28A3ED2BB6BF9F00212AA0 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28A3EC2BB6BF9F00212AA0 /* MyViewController.swift */; };
 		CE50C4FF2AF0D4EA00816038 /* Xcode15_New_Previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50C4FE2AF0D4EA00816038 /* Xcode15_New_Previews.swift */; };
 		CE5F924A2B61015B00ACA09E /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = CE5F92492B61015B00ACA09E /* Localizable.xcstrings */; };
 		CE8E3ABE2B31A52400CD1F3A /* ConcurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E3ABC2B31A52400CD1F3A /* ConcurrencyView.swift */; };
@@ -30,12 +31,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CE28A28D2BAD5DC700212AA0 /* PBXContainerItemProxy */ = {
+		CE09866E2C057A8A006A825C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CE28A2862BAD5DC600212AA0 /* Playground.xcodeproj */;
+			containerPortal = CED67AC02BF3590A0022C486 /* ContactsApp.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = CE28A2752BAD5DB700212AA0;
-			remoteInfo = Playground;
+			remoteGlobalIDString = CED67AAF2BF359080022C486;
+			remoteInfo = ContactsApp;
+		};
+		CE0986842C05CFF3006A825C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D862A2BF20314006AAEB6 /* CounterApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE6D85FD2BF20313006AAEB6;
+			remoteInfo = CounterApp;
+		};
+		CE0986862C05CFF3006A825C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D862A2BF20314006AAEB6 /* CounterApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE6D860D2BF20314006AAEB6;
+			remoteInfo = CounterAppTests;
 		};
 		CE28A3C72BB6BC8500212AA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +80,13 @@
 			remoteGlobalIDString = CE9854282B455DC10017B732;
 			remoteInfo = Landmarks;
 		};
+		CEAA32F32BD603C800FA519E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAA32E92BD603C700FA519E /* ThinkingInSwiftUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEAA32D82BD603C700FA519E;
+			remoteInfo = ThinkingInSwiftUI;
+		};
 		CEF413172B7343F000CC0B2E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CEF413132B7343F000CC0B2E /* PokeMaster.xcodeproj */;
@@ -92,16 +114,17 @@
 		CE1026322AF8BA37008110E6 /* Xcode15_New_Bookmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode15_New_Bookmark.swift; sourceTree = "<group>"; };
 		CE1181052B391BC300AB42A1 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE228E2B2B3C13C0002DF8B8 /* SwiftConcurrency.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftConcurrency.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		CE28A2862BAD5DC600212AA0 /* Playground.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Playground.xcodeproj; path = Playground/Playground.xcodeproj; sourceTree = "<group>"; };
 		CE28A3C32BB6BC8500212AA0 /* Rotation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Rotation.xcodeproj; path = Rotation/Rotation.xcodeproj; sourceTree = "<group>"; };
 		CE28A3C92BB6BC8900212AA0 /* ResultBuilder.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResultBuilder.xcodeproj; path = ResultBuilder/ResultBuilder.xcodeproj; sourceTree = "<group>"; };
 		CE28A3CF2BB6BD6300212AA0 /* FoodPicker.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FoodPicker.xcodeproj; path = FoodPicker/FoodPicker.xcodeproj; sourceTree = "<group>"; };
 		CE28A3D52BB6BD6900212AA0 /* Landmarks.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Landmarks.xcodeproj; path = Landmarks/Landmarks.xcodeproj; sourceTree = "<group>"; };
+		CE28A3EC2BB6BF9F00212AA0 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		CE486AD32AF1041A00A4657F /* PhantomType.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PhantomType.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CE50C4FA2AF0D3BC00816038 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CE50C4FB2AF0D3DB00816038 /* MarkupFormat.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MarkupFormat.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CE50C4FE2AF0D4EA00816038 /* Xcode15_New_Previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode15_New_Previews.swift; sourceTree = "<group>"; };
 		CE5F92492B61015B00ACA09E /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		CE6D862A2BF20314006AAEB6 /* CounterApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CounterApp.xcodeproj; path = ../CounterApp/CounterApp.xcodeproj; sourceTree = "<group>"; };
 		CE8E3ABC2B31A52400CD1F3A /* ConcurrencyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcurrencyView.swift; sourceTree = "<group>"; };
 		CE95C9222AF8931F00DEB25E /* Xcode15_New.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode15_New.swift; sourceTree = "<group>"; };
 		CE9853802B3EA2030017B732 /* Global Actor.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Global Actor.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -110,12 +133,14 @@
 		CEA0F8BE2B3C28CE00EB883B /* UserTaskGroupDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTaskGroupDemoView.swift; sourceTree = "<group>"; };
 		CEA0F9352B3D8C0B00EB883B /* StructuredDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuredDemoView.swift; sourceTree = "<group>"; };
 		CEA0F9372B3E9BB800EB883B /* Actor.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Actor.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CEAA32E92BD603C700FA519E /* ThinkingInSwiftUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ThinkingInSwiftUI.xcodeproj; path = ThinkingInSwiftUI/ThinkingInSwiftUI.xcodeproj; sourceTree = "<group>"; };
 		CEAD9D072AA0941000DF6212 /* MyPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAD9D0A2AA0941000DF6212 /* MyPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlaygroundApp.swift; sourceTree = "<group>"; };
 		CEAD9D0E2AA0941100DF6212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEAD9D112AA0941100DF6212 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEBBA6922B96C3590059D51B /* OnceTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnceTask.swift; sourceTree = "<group>"; };
 		CEBBA6982B96C35E0059D51B /* LifeMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifeMonitor.swift; sourceTree = "<group>"; };
+		CED67AC02BF3590A0022C486 /* ContactsApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ContactsApp.xcodeproj; path = ../ContactsApp/ContactsApp.xcodeproj; sourceTree = "<group>"; };
 		CEF413132B7343F000CC0B2E /* PokeMaster.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PokeMaster.xcodeproj; path = PokeMaster/PokeMaster.xcodeproj; sourceTree = "<group>"; };
 		CEF413192B73444F00CC0B2E /* Calculator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Calculator.xcodeproj; path = Calculator/Calculator.xcodeproj; sourceTree = "<group>"; };
 		DCDDCD0245A2436CEE749FB7 /* Pods-MyPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlayground.debug.xcconfig"; path = "Target Support Files/Pods-MyPlayground/Pods-MyPlayground.debug.xcconfig"; sourceTree = "<group>"; };
@@ -144,15 +169,42 @@
 		CE036AC42B61286C00CF6487 /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				CE0986602C057A83006A825C /* TCA */,
+				CEAA32E92BD603C700FA519E /* ThinkingInSwiftUI.xcodeproj */,
 				CE28A3D52BB6BD6900212AA0 /* Landmarks.xcodeproj */,
 				CE28A3CF2BB6BD6300212AA0 /* FoodPicker.xcodeproj */,
 				CE28A3C92BB6BC8900212AA0 /* ResultBuilder.xcodeproj */,
 				CE28A3C32BB6BC8500212AA0 /* Rotation.xcodeproj */,
-				CE28A2862BAD5DC600212AA0 /* Playground.xcodeproj */,
 				CEF413192B73444F00CC0B2E /* Calculator.xcodeproj */,
 				CEF413132B7343F000CC0B2E /* PokeMaster.xcodeproj */,
 			);
 			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		CE0986602C057A83006A825C /* TCA */ = {
+			isa = PBXGroup;
+			children = (
+				CE6D862A2BF20314006AAEB6 /* CounterApp.xcodeproj */,
+				CED67AC02BF3590A0022C486 /* ContactsApp.xcodeproj */,
+			);
+			path = TCA;
+			sourceTree = "<group>";
+		};
+		CE09866B2C057A8A006A825C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE09866F2C057A8A006A825C /* ContactsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE09867E2C05CFF3006A825C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE0986852C05CFF3006A825C /* CounterApp.app */,
+				CE0986872C05CFF3006A825C /* CounterAppTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CE1180E22B341A8600AB42A1 /* Concurrency */ = {
@@ -168,14 +220,6 @@
 				CE8E3ABC2B31A52400CD1F3A /* ConcurrencyView.swift */,
 			);
 			path = Concurrency;
-			sourceTree = "<group>";
-		};
-		CE28A2872BAD5DC600212AA0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CE28A28E2BAD5DC700212AA0 /* Playground.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		CE28A3C42BB6BC8500212AA0 /* Products */ = {
@@ -225,6 +269,14 @@
 			path = Xcode15_New;
 			sourceTree = "<group>";
 		};
+		CEAA32EA2BD603C700FA519E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEAA32F42BD603C800FA519E /* ThinkingInSwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CEAD9CFE2AA0941000DF6212 = {
 			isa = PBXGroup;
 			children = (
@@ -256,6 +308,7 @@
 			children = (
 				CEAD9D0A2AA0941000DF6212 /* MyPlaygroundApp.swift */,
 				CE1181052B391BC300AB42A1 /* ContentView.swift */,
+				CE28A3EC2BB6BF9F00212AA0 /* MyViewController.swift */,
 				CEAD9D0E2AA0941100DF6212 /* Assets.xcassets */,
 				CE10262A2AF8B49A008110E6 /* Storyboard.storyboard */,
 				CEAD9D102AA0941100DF6212 /* Preview Content */,
@@ -313,6 +366,8 @@
 			dependencies = (
 			);
 			name = MyPlayground;
+			packageProductDependencies = (
+			);
 			productName = MyPlayground;
 			productReference = CEAD9D072AA0941000DF6212 /* MyPlayground.app */;
 			productType = "com.apple.product-type.application";
@@ -343,6 +398,8 @@
 				de,
 			);
 			mainGroup = CEAD9CFE2AA0941000DF6212;
+			packageReferences = (
+			);
 			productRefGroup = CEAD9D082AA0941000DF6212 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
@@ -351,16 +408,20 @@
 					ProjectRef = CEF413192B73444F00CC0B2E /* Calculator.xcodeproj */;
 				},
 				{
+					ProductGroup = CE09866B2C057A8A006A825C /* Products */;
+					ProjectRef = CED67AC02BF3590A0022C486 /* ContactsApp.xcodeproj */;
+				},
+				{
+					ProductGroup = CE09867E2C05CFF3006A825C /* Products */;
+					ProjectRef = CE6D862A2BF20314006AAEB6 /* CounterApp.xcodeproj */;
+				},
+				{
 					ProductGroup = CE28A3D02BB6BD6300212AA0 /* Products */;
 					ProjectRef = CE28A3CF2BB6BD6300212AA0 /* FoodPicker.xcodeproj */;
 				},
 				{
 					ProductGroup = CE28A3D62BB6BD6900212AA0 /* Products */;
 					ProjectRef = CE28A3D52BB6BD6900212AA0 /* Landmarks.xcodeproj */;
-				},
-				{
-					ProductGroup = CE28A2872BAD5DC600212AA0 /* Products */;
-					ProjectRef = CE28A2862BAD5DC600212AA0 /* Playground.xcodeproj */;
 				},
 				{
 					ProductGroup = CEF413142B7343F000CC0B2E /* Products */;
@@ -374,6 +435,10 @@
 					ProductGroup = CE28A3C42BB6BC8500212AA0 /* Products */;
 					ProjectRef = CE28A3C32BB6BC8500212AA0 /* Rotation.xcodeproj */;
 				},
+				{
+					ProductGroup = CEAA32EA2BD603C700FA519E /* Products */;
+					ProjectRef = CEAA32E92BD603C700FA519E /* ThinkingInSwiftUI.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -383,11 +448,25 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		CE28A28E2BAD5DC700212AA0 /* Playground.app */ = {
+		CE09866F2C057A8A006A825C /* ContactsApp.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
-			path = Playground.app;
-			remoteRef = CE28A28D2BAD5DC700212AA0 /* PBXContainerItemProxy */;
+			path = ContactsApp.app;
+			remoteRef = CE09866E2C057A8A006A825C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE0986852C05CFF3006A825C /* CounterApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CounterApp.app;
+			remoteRef = CE0986842C05CFF3006A825C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE0986872C05CFF3006A825C /* CounterAppTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CounterAppTests.xctest;
+			remoteRef = CE0986862C05CFF3006A825C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		CE28A3C82BB6BC8500212AA0 /* Rotation.app */ = {
@@ -416,6 +495,13 @@
 			fileType = wrapper.application;
 			path = Landmarks.app;
 			remoteRef = CE28A3D92BB6BD6900212AA0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEAA32F42BD603C800FA519E /* ThinkingInSwiftUI.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ThinkingInSwiftUI.app;
+			remoteRef = CEAA32F32BD603C800FA519E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		CEF413182B7343F000CC0B2E /* PokeMaster.app */ = {
@@ -486,6 +572,7 @@
 				CE1026312AF8B9A0008110E6 /* Xcode15_New_Swift_Macros.swift in Sources */,
 				CE50C4FF2AF0D4EA00816038 /* Xcode15_New_Previews.swift in Sources */,
 				CE10262F2AF8B866008110E6 /* Xcode15_New_Swift-DocC.swift in Sources */,
+				CE28A3ED2BB6BF9F00212AA0 /* MyViewController.swift in Sources */,
 				CEBBA6992B96C35E0059D51B /* LifeMonitor.swift in Sources */,
 				CEBBA6972B96C3590059D51B /* OnceTask.swift in Sources */,
 				CEA0F8BD2B3C1A4400EB883B /* AsyncLetDemoView.swift in Sources */,
