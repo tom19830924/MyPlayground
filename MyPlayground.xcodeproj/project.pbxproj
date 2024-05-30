@@ -31,27 +31,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CE09866E2C057A8A006A825C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CED67AC02BF3590A0022C486 /* ContactsApp.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CED67AAF2BF359080022C486;
-			remoteInfo = ContactsApp;
-		};
-		CE0986842C05CFF3006A825C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CE6D862A2BF20314006AAEB6 /* CounterApp.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CE6D85FD2BF20313006AAEB6;
-			remoteInfo = CounterApp;
-		};
-		CE0986862C05CFF3006A825C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CE6D862A2BF20314006AAEB6 /* CounterApp.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CE6D860D2BF20314006AAEB6;
-			remoteInfo = CounterAppTests;
-		};
 		CE28A3C72BB6BC8500212AA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CE28A3C32BB6BC8500212AA0 /* Rotation.xcodeproj */;
@@ -79,6 +58,34 @@
 			proxyType = 2;
 			remoteGlobalIDString = CE9854282B455DC10017B732;
 			remoteInfo = Landmarks;
+		};
+		CE5378242C086A7D00D85193 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5378202C086A7D00D85193 /* ContactsApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CED67AAF2BF359080022C486;
+			remoteInfo = ContactsApp;
+		};
+		CE53782B2C086A8100D85193 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5378262C086A8100D85193 /* CounterApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE6D85FD2BF20313006AAEB6;
+			remoteInfo = CounterApp;
+		};
+		CE53782D2C086A8100D85193 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5378262C086A8100D85193 /* CounterApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE6D860D2BF20314006AAEB6;
+			remoteInfo = CounterAppTests;
+		};
+		CE5378332C086A8400D85193 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE53782F2C086A8400D85193 /* DiceApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE5377C22C086A4B00D85193;
+			remoteInfo = DiceApp;
 		};
 		CEAA32F32BD603C800FA519E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -123,8 +130,10 @@
 		CE50C4FA2AF0D3BC00816038 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CE50C4FB2AF0D3DB00816038 /* MarkupFormat.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MarkupFormat.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CE50C4FE2AF0D4EA00816038 /* Xcode15_New_Previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode15_New_Previews.swift; sourceTree = "<group>"; };
+		CE5378202C086A7D00D85193 /* ContactsApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ContactsApp.xcodeproj; path = ContactsApp/ContactsApp.xcodeproj; sourceTree = "<group>"; };
+		CE5378262C086A8100D85193 /* CounterApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CounterApp.xcodeproj; path = CounterApp/CounterApp.xcodeproj; sourceTree = "<group>"; };
+		CE53782F2C086A8400D85193 /* DiceApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DiceApp.xcodeproj; path = DiceApp/DiceApp.xcodeproj; sourceTree = "<group>"; };
 		CE5F92492B61015B00ACA09E /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
-		CE6D862A2BF20314006AAEB6 /* CounterApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CounterApp.xcodeproj; path = ../CounterApp/CounterApp.xcodeproj; sourceTree = "<group>"; };
 		CE8E3ABC2B31A52400CD1F3A /* ConcurrencyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcurrencyView.swift; sourceTree = "<group>"; };
 		CE95C9222AF8931F00DEB25E /* Xcode15_New.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode15_New.swift; sourceTree = "<group>"; };
 		CE9853802B3EA2030017B732 /* Global Actor.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Global Actor.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -140,7 +149,6 @@
 		CEAD9D112AA0941100DF6212 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEBBA6922B96C3590059D51B /* OnceTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnceTask.swift; sourceTree = "<group>"; };
 		CEBBA6982B96C35E0059D51B /* LifeMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifeMonitor.swift; sourceTree = "<group>"; };
-		CED67AC02BF3590A0022C486 /* ContactsApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ContactsApp.xcodeproj; path = ../ContactsApp/ContactsApp.xcodeproj; sourceTree = "<group>"; };
 		CEF413132B7343F000CC0B2E /* PokeMaster.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PokeMaster.xcodeproj; path = PokeMaster/PokeMaster.xcodeproj; sourceTree = "<group>"; };
 		CEF413192B73444F00CC0B2E /* Calculator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Calculator.xcodeproj; path = Calculator/Calculator.xcodeproj; sourceTree = "<group>"; };
 		DCDDCD0245A2436CEE749FB7 /* Pods-MyPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlayground.debug.xcconfig"; path = "Target Support Files/Pods-MyPlayground/Pods-MyPlayground.debug.xcconfig"; sourceTree = "<group>"; };
@@ -169,7 +177,7 @@
 		CE036AC42B61286C00CF6487 /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				CE0986602C057A83006A825C /* TCA */,
+				CE5377FA2C086A7300D85193 /* TCA */,
 				CEAA32E92BD603C700FA519E /* ThinkingInSwiftUI.xcodeproj */,
 				CE28A3D52BB6BD6900212AA0 /* Landmarks.xcodeproj */,
 				CE28A3CF2BB6BD6300212AA0 /* FoodPicker.xcodeproj */,
@@ -179,32 +187,6 @@
 				CEF413132B7343F000CC0B2E /* PokeMaster.xcodeproj */,
 			);
 			path = SwiftUI;
-			sourceTree = "<group>";
-		};
-		CE0986602C057A83006A825C /* TCA */ = {
-			isa = PBXGroup;
-			children = (
-				CE6D862A2BF20314006AAEB6 /* CounterApp.xcodeproj */,
-				CED67AC02BF3590A0022C486 /* ContactsApp.xcodeproj */,
-			);
-			path = TCA;
-			sourceTree = "<group>";
-		};
-		CE09866B2C057A8A006A825C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CE09866F2C057A8A006A825C /* ContactsApp.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		CE09867E2C05CFF3006A825C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CE0986852C05CFF3006A825C /* CounterApp.app */,
-				CE0986872C05CFF3006A825C /* CounterAppTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		CE1180E22B341A8600AB42A1 /* Concurrency */ = {
@@ -267,6 +249,41 @@
 				CE1026322AF8BA37008110E6 /* Xcode15_New_Bookmark.swift */,
 			);
 			path = Xcode15_New;
+			sourceTree = "<group>";
+		};
+		CE5377FA2C086A7300D85193 /* TCA */ = {
+			isa = PBXGroup;
+			children = (
+				CE53782F2C086A8400D85193 /* DiceApp.xcodeproj */,
+				CE5378262C086A8100D85193 /* CounterApp.xcodeproj */,
+				CE5378202C086A7D00D85193 /* ContactsApp.xcodeproj */,
+			);
+			path = TCA;
+			sourceTree = "<group>";
+		};
+		CE5378212C086A7D00D85193 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE5378252C086A7D00D85193 /* ContactsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE5378272C086A8100D85193 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE53782C2C086A8100D85193 /* CounterApp.app */,
+				CE53782E2C086A8100D85193 /* CounterAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE5378302C086A8400D85193 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE5378342C086A8400D85193 /* DiceApp.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CEAA32EA2BD603C700FA519E /* Products */ = {
@@ -408,12 +425,16 @@
 					ProjectRef = CEF413192B73444F00CC0B2E /* Calculator.xcodeproj */;
 				},
 				{
-					ProductGroup = CE09866B2C057A8A006A825C /* Products */;
-					ProjectRef = CED67AC02BF3590A0022C486 /* ContactsApp.xcodeproj */;
+					ProductGroup = CE5378212C086A7D00D85193 /* Products */;
+					ProjectRef = CE5378202C086A7D00D85193 /* ContactsApp.xcodeproj */;
 				},
 				{
-					ProductGroup = CE09867E2C05CFF3006A825C /* Products */;
-					ProjectRef = CE6D862A2BF20314006AAEB6 /* CounterApp.xcodeproj */;
+					ProductGroup = CE5378272C086A8100D85193 /* Products */;
+					ProjectRef = CE5378262C086A8100D85193 /* CounterApp.xcodeproj */;
+				},
+				{
+					ProductGroup = CE5378302C086A8400D85193 /* Products */;
+					ProjectRef = CE53782F2C086A8400D85193 /* DiceApp.xcodeproj */;
 				},
 				{
 					ProductGroup = CE28A3D02BB6BD6300212AA0 /* Products */;
@@ -448,27 +469,6 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		CE09866F2C057A8A006A825C /* ContactsApp.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = ContactsApp.app;
-			remoteRef = CE09866E2C057A8A006A825C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		CE0986852C05CFF3006A825C /* CounterApp.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = CounterApp.app;
-			remoteRef = CE0986842C05CFF3006A825C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		CE0986872C05CFF3006A825C /* CounterAppTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CounterAppTests.xctest;
-			remoteRef = CE0986862C05CFF3006A825C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		CE28A3C82BB6BC8500212AA0 /* Rotation.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
@@ -495,6 +495,34 @@
 			fileType = wrapper.application;
 			path = Landmarks.app;
 			remoteRef = CE28A3D92BB6BD6900212AA0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE5378252C086A7D00D85193 /* ContactsApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ContactsApp.app;
+			remoteRef = CE5378242C086A7D00D85193 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE53782C2C086A8100D85193 /* CounterApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CounterApp.app;
+			remoteRef = CE53782B2C086A8100D85193 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE53782E2C086A8100D85193 /* CounterAppTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CounterAppTests.xctest;
+			remoteRef = CE53782D2C086A8100D85193 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE5378342C086A8400D85193 /* DiceApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = DiceApp.app;
+			remoteRef = CE5378332C086A8400D85193 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		CEAA32F42BD603C800FA519E /* ThinkingInSwiftUI.app */ = {
