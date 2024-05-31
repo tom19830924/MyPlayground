@@ -86,8 +86,8 @@
 			children = (
 				CEDC28B62BF30E6F005D2EF2 /* Info.plist */,
 				CE6D86002BF20313006AAEB6 /* MyApp.swift */,
-				CE6D863E2BF20334006AAEB6 /* CounterFeature.swift */,
 				CED67AA42BF343EA0022C486 /* AppFeature.swift */,
+				CE6D863E2BF20334006AAEB6 /* CounterFeature.swift */,
 				CEDC28A32BF2176B005D2EF2 /* NumberFactClient.swift */,
 				CEDC28B92BF30EF0005D2EF2 /* Task+.swift */,
 				CE6D86042BF20314006AAEB6 /* Assets.xcassets */,
