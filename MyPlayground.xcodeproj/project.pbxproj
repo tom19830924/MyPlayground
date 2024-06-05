@@ -87,6 +87,20 @@
 			remoteGlobalIDString = CE5377C22C086A4B00D85193;
 			remoteInfo = DiceApp;
 		};
+		CE55BB452C1078DC00E103B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE55BB3C2C1078DC00E103B3 /* CounterDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE76D0E82C09E2A700A6E693;
+			remoteInfo = CounterDemo;
+		};
+		CE55BB472C1078DC00E103B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE55BB3C2C1078DC00E103B3 /* CounterDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE4E2AF22C0EB33D00D118CF;
+			remoteInfo = CounterDemoTests;
+		};
 		CEAA32F32BD603C800FA519E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CEAA32E92BD603C700FA519E /* ThinkingInSwiftUI.xcodeproj */;
@@ -133,6 +147,7 @@
 		CE5378202C086A7D00D85193 /* ContactsApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ContactsApp.xcodeproj; path = ContactsApp/ContactsApp.xcodeproj; sourceTree = "<group>"; };
 		CE5378262C086A8100D85193 /* CounterApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CounterApp.xcodeproj; path = CounterApp/CounterApp.xcodeproj; sourceTree = "<group>"; };
 		CE53782F2C086A8400D85193 /* DiceApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DiceApp.xcodeproj; path = DiceApp/DiceApp.xcodeproj; sourceTree = "<group>"; };
+		CE55BB3C2C1078DC00E103B3 /* CounterDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CounterDemo.xcodeproj; path = CounterDemo/CounterDemo.xcodeproj; sourceTree = "<group>"; };
 		CE5F92492B61015B00ACA09E /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		CE8E3ABC2B31A52400CD1F3A /* ConcurrencyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcurrencyView.swift; sourceTree = "<group>"; };
 		CE95C9222AF8931F00DEB25E /* Xcode15_New.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode15_New.swift; sourceTree = "<group>"; };
@@ -254,6 +269,7 @@
 		CE5377FA2C086A7300D85193 /* TCA */ = {
 			isa = PBXGroup;
 			children = (
+				CE55BB3C2C1078DC00E103B3 /* CounterDemo.xcodeproj */,
 				CE53782F2C086A8400D85193 /* DiceApp.xcodeproj */,
 				CE5378262C086A8100D85193 /* CounterApp.xcodeproj */,
 				CE5378202C086A7D00D85193 /* ContactsApp.xcodeproj */,
@@ -282,6 +298,15 @@
 			isa = PBXGroup;
 			children = (
 				CE5378342C086A8400D85193 /* DiceApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE55BB3D2C1078DC00E103B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE55BB462C1078DC00E103B3 /* CounterDemo.app */,
+				CE55BB482C1078DC00E103B3 /* CounterDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -433,6 +458,10 @@
 					ProjectRef = CE5378262C086A8100D85193 /* CounterApp.xcodeproj */;
 				},
 				{
+					ProductGroup = CE55BB3D2C1078DC00E103B3 /* Products */;
+					ProjectRef = CE55BB3C2C1078DC00E103B3 /* CounterDemo.xcodeproj */;
+				},
+				{
 					ProductGroup = CE5378302C086A8400D85193 /* Products */;
 					ProjectRef = CE53782F2C086A8400D85193 /* DiceApp.xcodeproj */;
 				},
@@ -523,6 +552,20 @@
 			fileType = wrapper.application;
 			path = DiceApp.app;
 			remoteRef = CE5378332C086A8400D85193 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE55BB462C1078DC00E103B3 /* CounterDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CounterDemo.app;
+			remoteRef = CE55BB452C1078DC00E103B3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE55BB482C1078DC00E103B3 /* CounterDemoTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CounterDemoTests.xctest;
+			remoteRef = CE55BB472C1078DC00E103B3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		CEAA32F42BD603C800FA519E /* ThinkingInSwiftUI.app */ = {
