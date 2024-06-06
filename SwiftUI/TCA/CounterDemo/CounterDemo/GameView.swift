@@ -57,19 +57,21 @@ struct GameView: View {
     let store: StoreOf<GameFeature>
     
     var body: some View {
-        VStack {
-            resultLabel(store.listResult.rows.elements)
-            Divider()
-            TimerLabelView(store: store.scope(state: \.timer, action: \.timer))
-            CounterView(store: store.scope(state: \.counter, action: \.counter))
-        }
-        .onAppear {
-            store.send(.timer(.start))
-        }
-        .toolbar {
-            ToolbarItem(placement: .topBarTrailing) {
-                NavigationLink("Detail") {
-                    GameResultListView(store: store.scope(state: \.listResult, action: \.listResult))
+        WithPerceptionTracking {
+            VStack {
+                resultLabel(store.listResult.rows.elements)
+                Divider()
+                TimerLabelView(store: store.scope(state: \.timer, action: \.timer))
+                CounterView(store: store.scope(state: \.counter, action: \.counter))
+            }
+            .onAppear {
+                store.send(.timer(.start))
+            }
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    NavigationLink("Detail") {
+                        GameResultListView(store: store.scope(state: \.listResult, action: \.listResult))
+                    }
                 }
             }
         }

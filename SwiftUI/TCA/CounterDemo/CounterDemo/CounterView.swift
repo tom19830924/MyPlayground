@@ -76,26 +76,28 @@ struct CounterFeature {
 struct CounterView: View {
     @Perception.Bindable var store: StoreOf<CounterFeature>
     var body: some View {
-        VStack {
-            checkLabel(with: store.checkResult)
-            HStack {
-                Button("-") {
-                    store.send(.decrement)
+        WithPerceptionTracking {
+            VStack {
+                checkLabel(with: store.checkResult)
+                HStack {
+                    Button("-") {
+                        store.send(.decrement)
+                    }
+                    TextField(String(store.count), text: $store.countString)
+                        .frame(width: 40)
+                        .multilineTextAlignment(.center)
+                        .foregroundColor(colorOfCount(store.count))
+                    Button("+") {
+                        store.send(.increment)
+                    }
                 }
-                TextField(String(store.count), text: $store.countString)
-                    .frame(width: 40)
-                    .multilineTextAlignment(.center)
-                    .foregroundColor(colorOfCount(store.count))
-                Button("+") {
-                    store.send(.increment)
+                Slider(value: $store.countFloat, in: -100...100)
+                Button("Next") {
+                    store.send(.playNext)
                 }
             }
-            Slider(value: $store.countFloat, in: -100...100)
-            Button("Next") {
-                store.send(.playNext)
-            }
+            .frame(width: 150)
         }
-        .frame(width: 150)
     }
     
     func checkLabel(with checkResult: CounterFeature.CheckResult) -> some View {

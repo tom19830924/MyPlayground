@@ -44,9 +44,11 @@ struct TimerLabelFeature {
 struct TimerLabelView: View {
     let store: StoreOf<TimerLabelFeature>
     var body: some View {
-        VStack(alignment: .leading) {
-            Label(store.started == nil ? "-" : "\(store.started!.myFormat)", systemImage: "clock")
-            Label("\(store.duration.myFormat)s", systemImage: "timer")
+        WithPerceptionTracking {
+            VStack(alignment: .leading) {
+                Label(store.started == nil ? "-" : "\(store.started!.myFormat)", systemImage: "clock")
+                Label("\(store.duration.myFormat)s", systemImage: "timer")
+            }
         }
     }
 }
