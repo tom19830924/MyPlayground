@@ -81,7 +81,7 @@ struct GameView: View {
 }
 
 #Preview {
-    NavigationStack {
+    NavigationView {
         GameView(
             store: Store(
                 initialState: GameFeature.State(),

@@ -46,7 +46,7 @@ struct GameResultListView: View {
 }
 
 #Preview {
-    NavigationStack {
+    NavigationView {
         GameResultListView(
             store: .init(
                 initialState: GameResultListFeature.State(rows: [

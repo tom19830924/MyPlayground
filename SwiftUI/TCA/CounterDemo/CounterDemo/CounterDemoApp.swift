@@ -8,7 +8,7 @@ struct CounterDemoApp: App {
     }
     var body: some Scene {
         WindowGroup {
-            NavigationStack {
+            NavigationView {
                 GameView(store: CounterDemoApp.store)
             }
         }

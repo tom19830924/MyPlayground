@@ -45,9 +45,26 @@ struct TimerLabelView: View {
     let store: StoreOf<TimerLabelFeature>
     var body: some View {
         VStack(alignment: .leading) {
-            Label(store.started == nil ? "-" : "\(store.started!.formatted(date: .omitted, time: .standard))", systemImage: "clock")
-            Label("\(store.duration, format: .number)s", systemImage: "timer")
+            Label(store.started == nil ? "-" : "\(store.started!.myFormat)", systemImage: "clock")
+            Label("\(store.duration.myFormat)s", systemImage: "timer")
         }
+    }
+}
+
+extension Date {
+    var myFormat: String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "HH:mm:ss"
+        return dateFormatter.string(from: self)
+    }
+}
+
+extension TimeInterval {
+    var myFormat: String {
+        let time = NSInteger(self)
+        let ms = Int((self.truncatingRemainder(dividingBy: 1)) * 100)
+        let seconds = time % 60
+        return String(format: "%0.2d.%0.2d", seconds, ms)
     }
 }
 

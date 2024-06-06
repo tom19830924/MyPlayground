@@ -74,7 +74,7 @@ struct CounterFeature {
 }
 
 struct CounterView: View {
-    @Bindable var store: StoreOf<CounterFeature>
+    @Perception.Bindable var store: StoreOf<CounterFeature>
     var body: some View {
         VStack {
             checkLabel(with: store.checkResult)
