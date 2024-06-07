@@ -33,7 +33,6 @@ struct ContactsFeature {
                         contact: Contact(id: UUID(), name: "")
                     )
                     return .none
-                    
                 case let .addContact(.presented(.delegate(.saveContact(contact)))):
                     state.contacts.append(contact)
                     return .none
@@ -81,8 +80,8 @@ struct ContactsView: View {
                 }
             }
             .alert(item: $store.scope(state: \.alert, action: \.alert)) { store in
-                return store.withState { state in
-                    Alert(state) { action in
+                store.withState { state in
+                    Alert(state) { _ in
 //                        store.send(.confirmDeletion(id: state.id))
                     }
                 }
