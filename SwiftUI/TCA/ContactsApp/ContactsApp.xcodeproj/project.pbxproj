@@ -13,6 +13,7 @@
 		CED67ABA2BF3590A0022C486 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED67AB92BF3590A0022C486 /* Preview Assets.xcassets */; };
 		CED67AD12BF359200022C486 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = CED67AD02BF359200022C486 /* ComposableArchitecture */; };
 		CED67AD32BF359350022C486 /* ContactsFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED67AD22BF359350022C486 /* ContactsFeature.swift */; };
+		CEFCD9092C130C810070B157 /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFCD9082C130C810070B157 /* ContactDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CED67AB62BF3590A0022C486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED67AB92BF3590A0022C486 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CED67AD22BF359350022C486 /* ContactsFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsFeature.swift; sourceTree = "<group>"; };
+		CEFCD9082C130C810070B157 /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				CED67AB22BF359080022C486 /* ContactsAppApp.swift */,
 				CED67AD22BF359350022C486 /* ContactsFeature.swift */,
 				CE5377A92C08235800D85193 /* AddContactFeature.swift */,
+				CEFCD9082C130C810070B157 /* ContactDetailView.swift */,
 				CED67AB62BF3590A0022C486 /* Assets.xcassets */,
 				CED67AB82BF3590A0022C486 /* Preview Content */,
 			);
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEFCD9092C130C810070B157 /* ContactDetailView.swift in Sources */,
 				CED67AB32BF359080022C486 /* ContactsAppApp.swift in Sources */,
 				CE5377AA2C08235800D85193 /* AddContactFeature.swift in Sources */,
 				CED67AD32BF359350022C486 /* ContactsFeature.swift in Sources */,
