@@ -59,10 +59,17 @@ struct GameView: View {
     var body: some View {
         WithPerceptionTracking {
             VStack {
-                resultLabel(store.listResult.rows.elements)
+                Text("Result: \(store.listResult.rows.elements.filter(\.correct).count)/\(store.listResult.rows.elements.count) correct")
+                
                 Divider()
+                
                 TimerLabelView(store: store.scope(state: \.timer, action: \.timer))
+                    .background(Color.gray)
+                
+                Divider()
+                
                 CounterView(store: store.scope(state: \.counter, action: \.counter))
+                    .background(Color.yellow)
             }
             .onAppear {
                 store.send(.timer(.start))
@@ -75,10 +82,6 @@ struct GameView: View {
                 }
             }
         }
-    }
-    
-    func resultLabel(_ results: [GameResult]) -> some View {
-        Text("Result: \(results.filter(\.correct).count)/\(results.count) correct")
     }
 }
 

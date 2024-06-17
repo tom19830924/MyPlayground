@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEAA32DC2BD603C700FA519E /* ThinkingInSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA32DB2BD603C700FA519E /* ThinkingInSwiftUIApp.swift */; };
+		CEAA32DC2BD603C700FA519E /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA32DB2BD603C700FA519E /* MainApp.swift */; };
 		CEAA32DE2BD603C700FA519E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA32DD2BD603C700FA519E /* ContentView.swift */; };
 		CEAA32E02BD603C700FA519E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAA32DF2BD603C700FA519E /* Assets.xcassets */; };
 		CEAA32E32BD603C700FA519E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAA32E22BD603C700FA519E /* Preview Assets.xcassets */; };
@@ -16,7 +16,7 @@
 
 /* Begin PBXFileReference section */
 		CEAA32D82BD603C700FA519E /* ThinkingInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkingInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEAA32DB2BD603C700FA519E /* ThinkingInSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkingInSwiftUIApp.swift; sourceTree = "<group>"; };
+		CEAA32DB2BD603C700FA519E /* MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
 		CEAA32DD2BD603C700FA519E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEAA32DF2BD603C700FA519E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEAA32E22BD603C700FA519E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		CEAA32DA2BD603C700FA519E /* ThinkingInSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				CEAA32DB2BD603C700FA519E /* ThinkingInSwiftUIApp.swift */,
+				CEAA32DB2BD603C700FA519E /* MainApp.swift */,
 				CEAA32DD2BD603C700FA519E /* ContentView.swift */,
 				CEAA32F52BD60DA700FA519E /* View+debug.swift */,
 				CEAA32DF2BD603C700FA519E /* Assets.xcassets */,
@@ -142,7 +142,7 @@
 			files = (
 				CEAA32DE2BD603C700FA519E /* ContentView.swift in Sources */,
 				CEAA32F62BD60DA700FA519E /* View+debug.swift in Sources */,
-				CEAA32DC2BD603C700FA519E /* ThinkingInSwiftUIApp.swift in Sources */,
+				CEAA32DC2BD603C700FA519E /* MainApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

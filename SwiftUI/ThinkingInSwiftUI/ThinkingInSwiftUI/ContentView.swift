@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  ThinkingInSwiftUI
-//
-//  Created by user on 2024/4/22.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -12,18 +5,19 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Button(action: {
+            Button {
                 counter += 1
-            }, label: {
+            } label: {
                 Text("Tap me!")
                     .padding()
                     .background(Color(.tertiarySystemFill))
                     .cornerRadius(5)
-            })
+            }
             
             if counter > 0 {
                 Text("You've tapped \(counter) times")
-            } else {
+            }
+            else {
                 Text("You've not yet tapped")
             }
         }.debug()

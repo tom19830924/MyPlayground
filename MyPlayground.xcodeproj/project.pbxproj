@@ -127,6 +127,7 @@
 /* Begin PBXFileReference section */
 		47973E878E866F4B3A62CB90 /* Pods-MyPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlayground.release.xcconfig"; path = "Target Support Files/Pods-MyPlayground/Pods-MyPlayground.release.xcconfig"; sourceTree = "<group>"; };
 		A6A1D0D4FAE3AD37D09D94AC /* libPods-MyPlayground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyPlayground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0EC7CC2C18395C00EB260E /* DynamicMemberLookup.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DynamicMemberLookup.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CE10260A2AF8947B008110E6 /* Xcode15_New_AssetCatalogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode15_New_AssetCatalogs.swift; sourceTree = "<group>"; };
 		CE10262A2AF8B49A008110E6 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		CE10262C2AF8B70C008110E6 /* Xcode15_New_StringCatalogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode15_New_StringCatalogs.swift; sourceTree = "<group>"; };
@@ -148,6 +149,7 @@
 		CE5378262C086A8100D85193 /* CounterApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CounterApp.xcodeproj; path = CounterApp/CounterApp.xcodeproj; sourceTree = "<group>"; };
 		CE53782F2C086A8400D85193 /* DiceApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DiceApp.xcodeproj; path = DiceApp/DiceApp.xcodeproj; sourceTree = "<group>"; };
 		CE55BB3C2C1078DC00E103B3 /* CounterDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CounterDemo.xcodeproj; path = CounterDemo/CounterDemo.xcodeproj; sourceTree = "<group>"; };
+		CE5CF6A32C1841AD007DA5C6 /* KeyPath.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = KeyPath.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CE5F92492B61015B00ACA09E /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		CE8E3ABC2B31A52400CD1F3A /* ConcurrencyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcurrencyView.swift; sourceTree = "<group>"; };
 		CE95C9222AF8931F00DEB25E /* Xcode15_New.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode15_New.swift; sourceTree = "<group>"; };
@@ -324,6 +326,8 @@
 			children = (
 				CEBBA6982B96C35E0059D51B /* LifeMonitor.swift */,
 				CEBBA6922B96C3590059D51B /* OnceTask.swift */,
+				CE5CF6A32C1841AD007DA5C6 /* KeyPath.playground */,
+				CE0EC7CC2C18395C00EB260E /* DynamicMemberLookup.playground */,
 				CE50C4FA2AF0D3BC00816038 /* MyPlayground.playground */,
 				CE486AD32AF1041A00A4657F /* PhantomType.playground */,
 				CE50C4FB2AF0D3DB00816038 /* MarkupFormat.playground */,

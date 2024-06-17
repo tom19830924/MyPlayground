@@ -19,6 +19,9 @@ struct ContactDetailFeature {
 
 struct ContactDetailView: View {
     let store: StoreOf<ContactDetailFeature>
+    init(store: StoreOf<ContactDetailFeature>) {
+        self.store = store
+    }
     var body: some View {
         Form {}
             .navigationTitle(Text(store.contact.name))

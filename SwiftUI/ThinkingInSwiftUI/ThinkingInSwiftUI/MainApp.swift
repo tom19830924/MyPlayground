@@ -1,5 +1,5 @@
 //
-//  ThinkingInSwiftUIApp.swift
+//  MainApp.swift
 //  ThinkingInSwiftUI
 //
 //  Created by user on 2024/4/22.

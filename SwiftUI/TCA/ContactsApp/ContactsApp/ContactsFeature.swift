@@ -12,6 +12,7 @@ struct ContactsFeature {
     struct State: Equatable {
         var contacts: IdentifiedArrayOf<Contact> = []
         @Presents var destination: Destination.State?
+        
     }
     
     enum Action {
@@ -94,6 +95,7 @@ struct ContactsView: View {
                 }
             }
 //            .alert($store.scope(state: \.destination?.alert, action: \.destination.alert))
+            
             .alert(item: $store.scope(state: \.destination?.alert, action: \.destination.alert)) { store in
                 store.withState { state in
                     Alert(state) { _ in
@@ -104,26 +106,36 @@ struct ContactsView: View {
         }
     }
     
+    @Binding var qq: String?
+    init(store: StoreOf<ContactsFeature>, qq: Binding<String?> = .constant(nil)) {
+        self.store = store
+        self._qq = qq
+    }
+    
     var list: some View {
         List {
             ForEach(store.contacts) { contact in
-                HStack {
-                    Text(contact.name)
-                    Spacer()
-                    Button {
-                        store.send(.deleteButtonTapped(id: contact.id))
-                    } label: {
-                        Image(systemName: "trash")
-                            .foregroundColor(.red)
-                    }
+                NavigationLink("123", tag: "QQ", selection: $qq) {
+                    Text("GG")
                 }
+//                HStack {
+//                    Text(contact.name)
+//                    Spacer()
+//                    Button {
+//                        store.send(.deleteButtonTapped(id: contact.id))
+//                    } label: {
+//                        Image(systemName: "trash")
+//                            .foregroundColor(.red)
+//                    }
+//                }
             }
         }
         .navigationTitle("Contacts")
         .toolbar {
             ToolbarItem {
                 Button {
-                    store.send(.addButtonTapped)
+                    qq = "QQ"
+//                    store.send(.addButtonTapped)
                 } label: {
                     Image(systemName: "plus")
                 }

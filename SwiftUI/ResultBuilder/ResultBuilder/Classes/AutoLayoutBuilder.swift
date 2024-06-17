@@ -7,6 +7,21 @@
 
 import UIKit
 
+// Blocking
+//static func buildBlock(_ components: Component...) -> Component
+//static func buildPartialBlock(first: Component) -> Component
+//static func buildPartialBlock(accumulated: Component, next: Component) -> Component
+
+//
+//static func buildOptional(_ component: Component?) -> Component
+//static func buildEither(first: Component) -> Component
+//static func buildEither(second: Component) -> Component
+//static func buildArray(_ components: [Component]) -> Component
+//static func buildExpression(_ expression: Expression) -> Component
+//static func buildFinalResult(_ component: Component) -> FinalResult
+//static func buildLimitedAvailability(_ component: Component) -> Component
+
+
 @resultBuilder
 struct AutoLayoutBuilder {
     static func buildBlock(_ components: [NSLayoutConstraint]...) -> [NSLayoutConstraint] {
