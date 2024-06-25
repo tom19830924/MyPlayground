@@ -26,21 +26,23 @@ struct GameResultListFeature {
 struct GameResultListView: View {
     let store: StoreOf<GameResultListFeature>
     var body: some View {
-        List {
-            ForEach(store.rows) { result in
-                HStack {
-                    Image(systemName: result.correct ? "checkmark.circle" : "x.circle")
-                    Text("Secret: \(result.counter.secret)")
-                    Text("Answer: \(result.counter.count)")
-                    Text("Spent: \(result.timeSpent)")
-                }.foregroundColor(result.correct ? .green : .red)
+        WithPerceptionTracking {
+            List {
+                ForEach(store.rows) { result in
+                    HStack {
+                        Image(systemName: result.correct ? "checkmark.circle" : "x.circle")
+                        Text("Secret: \(result.counter.secret)")
+                        Text("Answer: \(result.counter.count)")
+                        Text("Spent: \(result.timeSpent)")
+                    }.foregroundColor(result.correct ? .green : .red)
+                }
+                .onDelete {
+                    store.send(.remove(offset: $0))
+                }
             }
-            .onDelete {
-                store.send(.remove(offset: $0))
+            .toolbar {
+                EditButton()
             }
-        }
-        .toolbar {
-            EditButton()
         }
     }
 }

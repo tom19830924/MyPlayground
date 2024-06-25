@@ -28,7 +28,7 @@ struct GameFeature {
         Reduce { state, action in
             switch action {
                 case .counter(.playNext):
-                    let result = GameResult(counter: state.counter, timeSpent: state.timer.duration - state.lastTimestamp)
+                    let result = GameResult(counter: state.counter, timeSpent: 10 - state.timer.duration)
                     state.listResult.rows.append(result)
                     state.lastTimestamp = state.timer.duration
                     return .send(.timer(.setDuration(10)))
