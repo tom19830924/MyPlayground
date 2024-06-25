@@ -1,8 +1,8 @@
 //
-//  MainApp.swift
+//  ThinkingInSwiftUIApp.swift
 //  ThinkingInSwiftUI
 //
-//  Created by user on 2024/4/22.
+//  Created by user on 2024/6/18.
 //
 
 import SwiftUI
