@@ -6,14 +6,18 @@ struct TimerLabelFeature {
     @ObservableState
     struct State: Equatable {
         var started: Date?
-        var duration: TimeInterval = 0
+        var duration: TimeInterval = 10
     }
     
     enum Action {
         case start
         case stop
-        case timeUpdated
-        case newGame
+        case countdown
+        case delegate(Delegate)
+    }
+    
+    enum Delegate: Equatable {
+        case endOfCountdown
     }
     
     enum TimerId { case timer }
@@ -28,20 +32,20 @@ struct TimerLabelFeature {
                     }
                     return .run { send in
                         for await _ in environment.mainQueue.timer(interval: .milliseconds(10)) {
-                            await send(.timeUpdated)
+                            await send(.countdown)
                         }
                     }
                     .cancellable(id: TimerId.timer)
                 case .stop:
                     return .cancel(id: TimerId.timer)
-                case .timeUpdated:
-                    if state.duration >= 10 {
-                        state.duration = 0
-                        return .send(.newGame)
+                case .countdown:
+                    if state.duration <= 0 {
+                        state.duration = 10
+                        return .send(.delegate(.endOfCountdown))
                     }
-                    state.duration += 0.01
+                    state.duration -= 0.01
                     return .none
-                case .newGame:
+                case .delegate:
                     return .none
             }
         }
