@@ -32,6 +32,8 @@ struct GameFeature {
                     state.listResult.rows.append(result)
                     state.lastTimestamp = state.timer.duration
                     return .none
+                case .timer(.newGame):
+                    return .send(.counter(.playNext))
                 case .counter:
                     return .none
                 case .timer:

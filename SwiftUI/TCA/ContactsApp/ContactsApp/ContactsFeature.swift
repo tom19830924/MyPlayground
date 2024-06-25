@@ -99,7 +99,7 @@ struct ContactsView: View {
             .alert(item: $store.scope(state: \.destination?.alert, action: \.destination.alert)) { store in
                 store.withState { state in
                     Alert(state) { _ in
-//                        store.send(.confirmDeletion(id: state.id))
+                        store.send(.confirmDeletion(id: state.id))
                     }
                 }
             }
@@ -115,27 +115,23 @@ struct ContactsView: View {
     var list: some View {
         List {
             ForEach(store.contacts) { contact in
-                NavigationLink("123", tag: "QQ", selection: $qq) {
-                    Text("GG")
+                HStack {
+                    Text(contact.name)
+                    Spacer()
+                    Button {
+                        store.send(.deleteButtonTapped(id: contact.id))
+                    } label: {
+                        Image(systemName: "trash")
+                            .foregroundColor(.red)
+                    }
                 }
-//                HStack {
-//                    Text(contact.name)
-//                    Spacer()
-//                    Button {
-//                        store.send(.deleteButtonTapped(id: contact.id))
-//                    } label: {
-//                        Image(systemName: "trash")
-//                            .foregroundColor(.red)
-//                    }
-//                }
             }
         }
         .navigationTitle("Contacts")
         .toolbar {
             ToolbarItem {
                 Button {
-                    qq = "QQ"
-//                    store.send(.addButtonTapped)
+                    store.send(.addButtonTapped)
                 } label: {
                     Image(systemName: "plus")
                 }

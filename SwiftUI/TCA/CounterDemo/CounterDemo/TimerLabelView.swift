@@ -13,6 +13,7 @@ struct TimerLabelFeature {
         case start
         case stop
         case timeUpdated
+        case newGame
     }
     
     enum TimerId { case timer }
@@ -34,7 +35,13 @@ struct TimerLabelFeature {
                 case .stop:
                     return .cancel(id: TimerId.timer)
                 case .timeUpdated:
+                    if state.duration >= 10 {
+                        state.duration = 0
+                        return .send(.newGame)
+                    }
                     state.duration += 0.01
+                    return .none
+                case .newGame:
                     return .none
             }
         }
@@ -64,7 +71,7 @@ extension Date {
 extension TimeInterval {
     var myFormat: String {
         let time = NSInteger(self)
-        let ms = Int((self.truncatingRemainder(dividingBy: 1)) * 100)
+        let ms = Int(truncatingRemainder(dividingBy: 1) * 100)
         let seconds = time % 60
         return String(format: "%0.2d.%0.2d", seconds, ms)
     }
