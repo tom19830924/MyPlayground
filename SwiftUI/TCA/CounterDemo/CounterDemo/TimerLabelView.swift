@@ -13,6 +13,7 @@ struct TimerLabelFeature {
         case start
         case stop
         case countdown
+        case setDuration(TimeInterval)
         case delegate(Delegate)
     }
     
@@ -44,6 +45,9 @@ struct TimerLabelFeature {
                         return .send(.delegate(.endOfCountdown))
                     }
                     state.duration -= 0.01
+                    return .none
+                case let .setDuration(duration):
+                    state.duration = duration
                     return .none
                 case .delegate:
                     return .none

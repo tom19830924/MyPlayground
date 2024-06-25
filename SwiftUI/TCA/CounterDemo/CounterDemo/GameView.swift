@@ -31,7 +31,7 @@ struct GameFeature {
                     let result = GameResult(counter: state.counter, timeSpent: state.timer.duration - state.lastTimestamp)
                     state.listResult.rows.append(result)
                     state.lastTimestamp = state.timer.duration
-                    return .none
+                    return .send(.timer(.setDuration(10)))
                 case .timer(.delegate(.endOfCountdown)):
                     return .send(.counter(.playNext))
                 case .counter:
