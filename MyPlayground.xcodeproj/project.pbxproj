@@ -17,6 +17,7 @@
 		CE1181062B391BC300AB42A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1181052B391BC300AB42A1 /* ContentView.swift */; };
 		CE157CD32C256671004ACB0C /* FocusedValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE157CD22C256671004ACB0C /* FocusedValue.swift */; };
 		CE28A3ED2BB6BF9F00212AA0 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28A3EC2BB6BF9F00212AA0 /* MyViewController.swift */; };
+		CE46AAAD2C2C06DB00EA1B74 /* View+debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46AAAC2C2C06DB00EA1B74 /* View+debug.swift */; };
 		CE50C4FF2AF0D4EA00816038 /* Xcode15_New_Previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50C4FE2AF0D4EA00816038 /* Xcode15_New_Previews.swift */; };
 		CE5F924A2B61015B00ACA09E /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = CE5F92492B61015B00ACA09E /* Localizable.xcstrings */; };
 		CE8E3ABE2B31A52400CD1F3A /* ConcurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E3ABC2B31A52400CD1F3A /* ConcurrencyView.swift */; };
@@ -52,6 +53,13 @@
 			proxyType = 2;
 			remoteGlobalIDString = CE9854282B455DC10017B732;
 			remoteInfo = Landmarks;
+		};
+		CE46AAAA2C2BF8AE00EA1B74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE46AAA62C2BF8AD00EA1B74 /* Presentation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE46AA952C2BF8AD00EA1B74;
+			remoteInfo = Presentation;
 		};
 		CE5378242C086A7D00D85193 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -142,6 +150,8 @@
 		CE28A3CF2BB6BD6300212AA0 /* FoodPicker.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FoodPicker.xcodeproj; path = FoodPicker/FoodPicker.xcodeproj; sourceTree = "<group>"; };
 		CE28A3D52BB6BD6900212AA0 /* Landmarks.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Landmarks.xcodeproj; path = Landmarks/Landmarks.xcodeproj; sourceTree = "<group>"; };
 		CE28A3EC2BB6BF9F00212AA0 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		CE46AAA62C2BF8AD00EA1B74 /* Presentation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Presentation.xcodeproj; path = Presentation/Presentation.xcodeproj; sourceTree = "<group>"; };
+		CE46AAAC2C2C06DB00EA1B74 /* View+debug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+debug.swift"; sourceTree = "<group>"; };
 		CE486AD32AF1041A00A4657F /* PhantomType.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PhantomType.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CE50C4FA2AF0D3BC00816038 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CE50C4FB2AF0D3DB00816038 /* MarkupFormat.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MarkupFormat.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -197,6 +207,7 @@
 		CE036AC42B61286C00CF6487 /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				CE46AAA62C2BF8AD00EA1B74 /* Presentation.xcodeproj */,
 				CEA740842C212D8500A4D551 /* ThinkingInSwiftUI */,
 				CE5377FA2C086A7300D85193 /* TCA */,
 				CE28A3D52BB6BD6900212AA0 /* Landmarks.xcodeproj */,
@@ -243,6 +254,14 @@
 			isa = PBXGroup;
 			children = (
 				CE28A3DA2BB6BD6900212AA0 /* Landmarks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE46AAA72C2BF8AD00EA1B74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE46AAAB2C2BF8AE00EA1B74 /* Presentation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -368,6 +387,7 @@
 				CE1181052B391BC300AB42A1 /* ContentView.swift */,
 				CE157CD22C256671004ACB0C /* FocusedValue.swift */,
 				CE28A3EC2BB6BF9F00212AA0 /* MyViewController.swift */,
+				CE46AAAC2C2C06DB00EA1B74 /* View+debug.swift */,
 				CEAD9D0E2AA0941100DF6212 /* Assets.xcassets */,
 				CE10262A2AF8B49A008110E6 /* Storyboard.storyboard */,
 				CEAD9D102AA0941100DF6212 /* Preview Content */,
@@ -499,6 +519,10 @@
 					ProjectRef = CEF413132B7343F000CC0B2E /* PokeMaster.xcodeproj */;
 				},
 				{
+					ProductGroup = CE46AAA72C2BF8AD00EA1B74 /* Products */;
+					ProjectRef = CE46AAA62C2BF8AD00EA1B74 /* Presentation.xcodeproj */;
+				},
+				{
 					ProductGroup = CE28A3C42BB6BC8500212AA0 /* Products */;
 					ProjectRef = CE28A3C32BB6BC8500212AA0 /* Rotation.xcodeproj */;
 				},
@@ -534,6 +558,13 @@
 			fileType = wrapper.application;
 			path = Landmarks.app;
 			remoteRef = CE28A3D92BB6BD6900212AA0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE46AAAB2C2BF8AE00EA1B74 /* Presentation.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Presentation.app;
+			remoteRef = CE46AAAA2C2BF8AE00EA1B74 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		CE5378252C086A7D00D85193 /* ContactsApp.app */ = {
@@ -669,6 +700,7 @@
 				CE8E3ABE2B31A52400CD1F3A /* ConcurrencyView.swift in Sources */,
 				CE10260B2AF8947B008110E6 /* Xcode15_New_AssetCatalogs.swift in Sources */,
 				CEAD9D0B2AA0941000DF6212 /* MyPlaygroundApp.swift in Sources */,
+				CE46AAAD2C2C06DB00EA1B74 /* View+debug.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

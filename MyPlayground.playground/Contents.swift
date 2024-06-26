@@ -16,27 +16,47 @@ extension View {
     }
 }
 
+import SwiftUI
+
 struct ContentView: View {
+    @State var isPresented = false
     var body: some View {
-        MyView()
-            .padding()
-            .task {
-                print("3")
-                print("4")
+        VStack {
+            Button("Present") {
+                isPresented = true
             }
-            .debug()
-       
+        }
+        .sheet(isPresented: $isPresented) {
+            FullScrenPresentedView()
+        }
     }
 }
 
-struct MyView: View {
+struct FullScrenPresentedView: View {
+    @Environment(\.dismiss) var dismiss
+    
     var body: some View {
-        Text("123")
-            .task {
-                print("1")
-                print("2")
+        NavigationView {
+            VStack {
+                Text("view4")
+                SubView()
             }
-            .debug()
+            .padding()
+            .border(.red)
+        }
+    }
+}
+
+struct SubView: View {
+    @Environment(\.dismiss) var dismiss
+    
+    var body: some View {
+        VStack {
+            Button("Dismiss") {
+                dismiss()
+            }
+        }
+        .border(.green)
     }
 }
 
