@@ -21,9 +21,10 @@ struct CounterFeature {
     }
   
     enum CancelID { case timer }
-  
-    @Dependency(\.mainQueue) var mainQueue
+
+    // iOS16才可用clock
 //    @Dependency(\.continuousClock) var clock
+    @Dependency(\.mainQueue) var mainQueue
     
     @Dependency(\.numberFact) var numberFact
     
@@ -39,10 +40,12 @@ struct CounterFeature {
                     state.fact = nil
                     state.isLoading = true
                     return .run { [count = state.count] send in
+                        // 直接發送API, 不方便測試
 //                        let (data, _) = try await URLSession.shared.data(from: URL(string: "http://numbersapi.com/\(count)")!)
 //                        let fact = String(decoding: data, as: UTF8.self)
 //                        await send(.factResponse(fact))
-
+                        
+                        // API發送改為外部依賴
                         try await send(.factResponse(numberFact.fetch(count)))
                     }
         
@@ -65,18 +68,16 @@ struct CounterFeature {
                     state.isTimerRunning.toggle()
                     if state.isTimerRunning {
                         return .run { send in
+                            // iOS16才可用clock
+//                            for await _ in clock.timer(interval: .seconds(1)) {
+//                                await send(.timerTick)
+//                            }
+
                             for await _ in mainQueue.timer(interval: .seconds(1)) {
                                 await send(.timerTick)
                             }
                         }
                         .cancellable(id: CancelID.timer)
-
-//                        return .run { send in
-//                            for await _ in clock.timer(interval: .seconds(1)) {
-//                                await send(.timerTick)
-//                            }
-//                        }
-//                        .cancellable(id: CancelID.timer)
                     }
                     else {
                         return .cancel(id: CancelID.timer)
@@ -90,36 +91,56 @@ struct CounterView: View {
     let store: StoreOf<CounterFeature>
   
     var body: some View {
-        VStack {
-            Text("\(store.count)")
-                .font(.largeTitle)
-                .padding()
-                .background(Color.black.opacity(0.1))
-                .cornerRadius(10)
-            HStack {
-                Button("-") {
-                    store.send(.decrementButtonTapped)
+        WithPerceptionTracking {
+            VStack {
+                Text("\(store.count)")
+                    .font(.largeTitle)
+                    .padding()
+                    .background(Color.black.opacity(0.1))
+                    .cornerRadius(10)
+                HStack {
+                    Button("-") {
+                        store.send(.decrementButtonTapped)
+                    }
+                    .font(.largeTitle)
+                    .padding()
+                    .background(Color.black.opacity(0.1))
+                    .cornerRadius(10)
+                    
+                    Button("+") {
+                        store.send(.incrementButtonTapped)
+                    }
+                    .font(.largeTitle)
+                    .padding()
+                    .background(Color.black.opacity(0.1))
+                    .cornerRadius(10)
+                }
+                Button(store.isTimerRunning ? "Stop timer" : "Start timer") {
+                    store.send(.toggleTimerButtonTapped)
                 }
                 .font(.largeTitle)
                 .padding()
                 .background(Color.black.opacity(0.1))
                 .cornerRadius(10)
-        
-                Button("+") {
-                    store.send(.incrementButtonTapped)
+                
+                Button("Fact") {
+                    store.send(.factButtonTapped)
                 }
                 .font(.largeTitle)
                 .padding()
                 .background(Color.black.opacity(0.1))
                 .cornerRadius(10)
+                
+                if store.isLoading {
+                    ProgressView()
+                }
+                else if let fact = store.fact {
+                    Text(fact)
+                        .font(.largeTitle)
+                        .multilineTextAlignment(.center)
+                        .padding()
+                }
             }
-            Button("Fact") {
-                store.send(.factButtonTapped)
-            }
-            .font(.largeTitle)
-            .padding()
-            .background(Color.black.opacity(0.1))
-            .cornerRadius(10)
         }
     }
 }
