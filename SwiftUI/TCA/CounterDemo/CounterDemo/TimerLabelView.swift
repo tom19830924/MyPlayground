@@ -9,7 +9,7 @@ struct TimerLabelFeature {
         var duration: TimeInterval = 10
     }
     
-    enum Action {
+    enum Action: Equatable {
         case start
         case stop
         case countdown

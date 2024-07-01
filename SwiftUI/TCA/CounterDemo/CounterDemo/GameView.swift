@@ -66,12 +66,12 @@ struct GameView: View {
                 Divider()
                 
                 TimerLabelView(store: store.scope(state: \.timer, action: \.timer))
-                    .background(Color.gray)
+                    .border(Color.red)
                 
                 Divider()
                 
                 CounterView(store: store.scope(state: \.counter, action: \.counter))
-                    .background(Color.yellow)
+                    .border(Color.red)
             }
             .onAppear {
                 store.send(.timer(.start))
@@ -83,6 +83,7 @@ struct GameView: View {
                     }
                 }
             }
+            .border(Color.red)
         }
     }
 }

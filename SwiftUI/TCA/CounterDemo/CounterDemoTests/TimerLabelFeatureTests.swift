@@ -36,9 +36,9 @@ final class TimerLabelFeatureTests: XCTestCase {
         // 這表示讓時間前進0.35秒
         await scheduler.advance(by: .milliseconds(35))
         // 0.35秒後, 期望收到三次事件, 所以要寫三個receive, 少一個都不行
-        await store.receive(.timeUpdated) { $0.duration = 0.01 }
-        await store.receive(.timeUpdated) { $0.duration = 0.02 }
-        await store.receive(.timeUpdated) { $0.duration = 0.03 }
+        await store.receive(.countdown) { $0.duration = 0.01 }
+        await store.receive(.countdown) { $0.duration = 0.02 }
+        await store.receive(.countdown) { $0.duration = 0.03 }
         await store.send(.stop)
     }
 }
